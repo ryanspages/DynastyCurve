@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dynasty Hitter Aging Curve</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Dynasty Hitter Aging Curve</h1>
+<p class="muted">Expected offensive performance by age for MLB hitters.</p>
+
+<div class="inputs">
+  <label>Player: 
+    <input type="text" id="playerSearch" placeholder="Type a player name...">
+  </label>
+</div>
+
+<canvas id="ageChart" width="800" height="400"></canvas>
+
+<script src="script.js"></script>
+</body>
+</html>

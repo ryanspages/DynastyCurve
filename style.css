@@ -1,0 +1,5 @@
+body { font-family: sans-serif; max-width: 900px; margin: auto; padding: 20px; }
+h1 { margin-bottom: 0.2em; }
+.muted { color: #555; font-size: 0.9em; margin-bottom: 1em; }
+.inputs { margin: 1em 0; }
+input { padding: 4px 8px; font-size: 1em; width: 200px; }
