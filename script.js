@@ -2,23 +2,32 @@ let populationCurve = [];
 let players = [];
 let chart;
 
-// Load population curve CSV
+/* -----------------------------
+   Load population curve CSV
+------------------------------ */
 Papa.parse('data/population_curve.csv', {
   download: true,
   header: true,
   dynamicTyping: true,
-  complete: function(results) {
-    populationCurve = results.data;
+  complete: function (results) {
+    populationCurve = results.data.filter(d => d.Age !== null);
     initChart();
   }
 });
 
-// Load player JSON
+/* -----------------------------
+   Load player JSON
+------------------------------ */
 fetch('data/players_sample.json')
   .then(response => response.json())
-  .then(data => players = data);
+  .then(data => {
+    players = data;
+    console.log("Loaded players:", players.length);
+  });
 
-// Initialize Chart.js
+/* -----------------------------
+   Initialize Chart
+------------------------------ */
 function initChart() {
   const ctx = document.getElementById('ageChart').getContext('2d');
 
@@ -41,55 +50,92 @@ function initChart() {
     },
     options: {
       responsive: true,
-      plugins: { legend: { display: true } },
+      plugins: {
+        legend: { display: true }
+      },
       scales: {
-        y: { title: { display: true, text: 'Age Factor' }, min: 0, max: 1.1 },
-        x: { title: { display: true, text: 'Age' } }
+        y: {
+          title: { display: true, text: 'Age Factor / Indexed wRC+' },
+          min: 0,
+          max: 1.1
+        },
+        x: {
+          title: { display: true, text: 'Age' }
+        }
       }
     }
   });
 }
 
-// Handle player search input
-document.getElementById('playerSearch').addEventListener('input', function() {
+/* -----------------------------
+   Handle player search
+------------------------------ */
+document.getElementById('playerSearch').addEventListener('input', function () {
   const query = this.value.toLowerCase();
-  const player = players.find(p => p.name.toLowerCase().includes(query));
-  if(player) {
+  if (query.length < 2) return;
+
+  const player = players.find(p =>
+    p.name && p.name.toLowerCase().includes(query)
+  );
+
+  if (player) {
     plotPlayer(player);
   }
 });
 
+/* -----------------------------
+   Plot player on curve
+------------------------------ */
 function plotPlayer(player) {
-  // Remove previous player datasets
-  chart.data.datasets = chart.data.datasets.filter(ds => ds.label === 'Population Curve');
+  console.log("Plotting player:", player);
+
+  const playerName = player.name;
+  const playerAge = Number(player.age);
+  const playerWRC = Number(player.wRCPLus);
+
+  if (isNaN(playerAge) || isNaN(playerWRC)) {
+    console.warn("Invalid player data:", player);
+    return;
+  }
+
+  // Remove old player datasets
+  chart.data.datasets = chart.data.datasets.filter(
+    ds => ds.label === 'Population Curve'
+  );
 
   const ages = populationCurve.map(d => d.Age);
   const factors = populationCurve.map(d => d.AgeFactor);
 
-  // Calculate forecasted wRC+ for future ages
-  const futureValues = ages.map(age => {
-    if(age < player.age) return null;
-    return player.wRCPlus * factors[ages.indexOf(age)] / factors[ages.indexOf(player.age)];
-  });
+  const ageIndex = ages.indexOf(playerAge);
+  if (ageIndex === -1) {
+    console.warn("Player age not found in population curve:", playerAge);
+    return;
+  }
 
-  // Current player point
-  const currentPoint = { x: player.age, y: player.wRCPlus };
+  // Forecast future values
+  const forecastData = ages.map((age, i) => {
+    if (age < playerAge) return null;
+    return {
+      x: age,
+      y: playerWRC * factors[i] / factors[ageIndex]
+    };
+  }).filter(Boolean);
 
-  // Add to chart
+  // Add datasets
   chart.data.datasets.push(
     {
-      label: player.name + ' Current',
-      data: [{ x: player.age, y: player.wRCPlus }],
+      label: `${playerName} (Current)`,
+      data: [{ x: playerAge, y: playerWRC }],
       borderColor: 'red',
       backgroundColor: 'red',
       pointRadius: 6,
       type: 'scatter'
     },
     {
-      label: player.name + ' Forecast',
-      data: futureValues.map((v, i) => v !== null ? {x: ages[i], y: v} : null).filter(v=>v),
+      label: `${playerName} (Forecast)`,
+      data: forecastData,
       borderColor: 'red',
-      borderDash: [5,5],
+      borderDash: [5, 5],
       fill: false,
       tension: 0.2
     }
