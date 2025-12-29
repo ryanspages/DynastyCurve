@@ -91,7 +91,7 @@ function plotPlayer(player) {
 
   const playerName = player.name;
   const playerAge = Number(player.age);
-  const playerWRC = Number(player.wRCPLus);
+  const playerWRC = Number(player.wRCPlus);
 
   if (isNaN(playerAge) || isNaN(playerWRC)) {
     console.warn("Invalid player data:", player);
