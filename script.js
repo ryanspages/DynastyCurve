@@ -125,7 +125,10 @@ function plotPlayer(player) {
   chart.data.datasets.push(
     {
       label: `${playerName} (Current)`,
-      data: [{ x: playerAge, y: playerWRC }],
+      data: [{
+        x: playerAge,
+        y: playerWRC / playerWRC  // = 1.0 (indexed current value)
+}],
       borderColor: 'red',
       backgroundColor: 'red',
       pointRadius: 6,
