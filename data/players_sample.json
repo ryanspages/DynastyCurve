@@ -2,5 +2,6 @@
   {"name": "Juan Soto", "age": 25, "wRCPlus": 140},
   {"name": "Fernando Tatis Jr.", "age": 24, "wRCPlus": 150},
   {"name": "Mike Trout", "age": 31, "wRCPlus": 130},
-  {"name": "Mookie Betts", "age": 32, "wRCPlus": 125}
+  {"name": "Mookie Betts", "age": 32, "wRCPlus": 125},
+  {"name": "Julio Rodriguez", "age": 24, "wRCPlus": 126}
 ]
