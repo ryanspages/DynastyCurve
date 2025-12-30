@@ -31,17 +31,16 @@ fetch('data/players_sample.json')
 function initChart() {
   const ctx = document.getElementById('ageChart').getContext('2d');
 
-  const ages = populationCurve.map(d => d.Age);
-  const factors = populationCurve.map(d => d.AgeFactor);
-
   chart = new Chart(ctx, {
     type: 'line',
     data: {
-      labels: ages,
       datasets: [
         {
           label: 'Population Curve',
-          data: factors,
+          data: populationCurve.map(d => ({
+            x: Number(d.Age),
+            y: Number(d.AgeFactor)
+          })),
           borderColor: 'blue',
           fill: false,
           tension: 0.2
@@ -60,10 +59,11 @@ function initChart() {
           max: 1.1
         },
         x: {
-            type: 'linear',
-            title: { display: true, text: 'Age' },
-            ticks: {
+          type: 'linear',
+          title: { display: true, text: 'Age' },
+          ticks: {
             stepSize: 1
+          }
         }
       }
     }
