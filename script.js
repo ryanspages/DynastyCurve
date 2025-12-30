@@ -113,13 +113,17 @@ function plotPlayer(player) {
   }
 
   // Forecast future values
-  const forecastData = ages.map((age, i) => {
+  const forecastData = ages
+  .map((age, i) => {
     if (age < playerAge) return null;
-    return {
-      x: age,
-      y: playerWRC * factors[i] / factors[ageIndex]
-    };
-  }).filter(Boolean);
+
+    const y = playerWRC * factors[i] / factors[ageIndex];
+
+    if (isNaN(y)) return null;
+
+    return { x: age, y };
+  })
+  .filter(v => v !== null);
 
   // Add datasets
   chart.data.datasets.push(
