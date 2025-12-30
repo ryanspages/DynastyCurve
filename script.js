@@ -60,7 +60,10 @@ function initChart() {
           max: 1.1
         },
         x: {
-          title: { display: true, text: 'Age' }
+            type: 'linear',
+            title: { display: true, text: 'Age' },
+            ticks: {
+            stepSize: 1
         }
       }
     }
