@@ -23,6 +23,19 @@ fetch('data/players_sample.json')
   .then(data => {
     players = data;
     console.log("Loaded players:", players.length);
+
+    // Populate datalist for controlled search
+    const list = document.getElementById('playerList');
+    if (!list) return;
+
+    list.innerHTML = '';
+
+    players.forEach(p => {
+      if (!p.name) return;
+      const option = document.createElement('option');
+      option.value = p.name;
+      list.appendChild(option);
+    });
   });
 
 /* -----------------------------
