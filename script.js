@@ -56,7 +56,8 @@ function initChart() {
           })),
           borderColor: 'blue',
           fill: false,
-          tension: 0.2
+          tension: 0.2,
+          yAxisID: 'y' // Primary axis
         }
       ]
     },
@@ -66,10 +67,22 @@ function initChart() {
         legend: { display: true }
       },
       scales: {
+        // Primary axis for population curve
         y: {
-          title: { display: true, text: 'Age Factor / Indexed wRC+' },
+          type: 'linear',
+          title: { display: true, text: 'Age Factor' },
           min: 0,
-          max: 1.1
+          max: 1.1,
+          position: 'left'
+        },
+        // Secondary axis for player wRC+
+        y1: {
+          type: 'linear',
+          title: { display: true, text: 'wRC+' },
+          min: 50,  // adjust as needed
+          max: 200, // adjust as needed
+          position: 'right',
+          grid: { drawOnChartArea: false } // avoid grid overlap
         },
         x: {
           type: 'linear',
@@ -122,7 +135,8 @@ function plotPlayer(player) {
       borderColor: 'red',
       backgroundColor: 'red',
       pointRadius: 6,
-      type: 'scatter'
+      type: 'scatter',
+      yAxisID: 'y1' // secondary axis
     },
     {
       label: player.name + ' Forecast',
@@ -130,7 +144,8 @@ function plotPlayer(player) {
       borderColor: 'red',
       borderDash: [5, 5],
       fill: false,
-      tension: 0.2
+      tension: 0.2,
+      yAxisID: 'y1' // secondary axis
     }
   );
 
