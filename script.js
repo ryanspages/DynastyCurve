@@ -84,9 +84,7 @@ function initPlayerChart() {
         },
         y: {
           type: 'linear',
-          title: { display: true, text: 'wRC+' },
-          min: 50,
-          max: 200
+          title: { display: true, text: 'wRC+' }
         }
       }
     }
@@ -104,13 +102,28 @@ document.getElementById('playerSearch').addEventListener('change', function () {
 });
 
 // -----------------------------
-// Plot player: history + forecast
+// Plot player: history + forecast with dynamic y-axis
 // -----------------------------
 function plotPlayer(player) {
   console.log("Plotting player:", player);
 
   // Clear previous datasets
   playerChart.data.datasets = [];
+
+  // Historical points
+  const historyData = player.history.map(h => ({ x: h.age, y: h.wRCPlus }));
+
+  // Forecast points
+  const forecastData = player.forecast.map(f => ({ x: f.age, y: f.wRCPlus }));
+
+  // Combine all Y values for dynamic axis
+  const allY = [...historyData.map(d => d.y), ...forecastData.map(d => d.y), 100]; // include league avg
+  const minY = Math.floor(Math.min(...allY) / 10) * 10 - 10;
+  const maxY = Math.ceil(Math.max(...allY) / 10) * 10 + 10;
+
+  // Update y-axis scale dynamically
+  playerChart.options.scales.y.min = minY;
+  playerChart.options.scales.y.max = maxY;
 
   // League average line at 100
   playerChart.data.datasets.push({
@@ -125,8 +138,7 @@ function plotPlayer(player) {
     pointRadius: 0
   });
 
-  // Historical points
-  const historyData = player.history.map(h => ({ x: h.age, y: h.wRCPlus }));
+  // Add historical dataset
   playerChart.data.datasets.push({
     label: player.name + ' History',
     data: historyData,
@@ -136,8 +148,7 @@ function plotPlayer(player) {
     type: 'scatter'
   });
 
-  // Forecast points
-  const forecastData = player.forecast.map(f => ({ x: f.age, y: f.wRCPlus }));
+  // Add forecast dataset
   playerChart.data.datasets.push({
     label: player.name + ' Forecast',
     data: forecastData,
