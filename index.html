@@ -2,25 +2,21 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dynasty Hitter Aging Curve</title>
+<title>Dynasty Hitter Age Curve</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>Dynasty Hitter Aging Curve</h1>
-<p class="muted">Expected offensive performance by age for MLB hitters.</p>
+<h2>Population Age Curve</h2>
+<canvas id="populationChart" width="800" height="300"></canvas>
 
-<div class="inputs">
-  <label>Player: 
-    <input list="playerList" id="playerSearch" placeholder="Select a player">
+<h2>Player History + Forecast</h2>
+<input list="playerList" id="playerSearch" placeholder="Select a player">
 <datalist id="playerList"></datalist>
-</div>
-
-<canvas id="ageChart" width="800" height="400"></canvas>
+<canvas id="playerChart" width="800" height="300"></canvas>
 
 <script src="script.js"></script>
-</body> <!-- renamed the file -->
+</body>
 </html>
