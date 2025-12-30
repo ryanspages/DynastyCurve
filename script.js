@@ -120,7 +120,7 @@ const forecastData = ages
   .map((age, i) => {
     if (age < playerAge) return null;
 
-    const y = playerWRC * factors[i] / factors[ageIndex];
+    const y = factors[i] / factors[ageIndex];
     if (isNaN(y)) return null;
 
     return { x: age, y };
