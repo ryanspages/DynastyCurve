@@ -113,40 +113,39 @@ function plotPlayer(player) {
   }
 
   // Forecast future values
-  const forecastData = ages
+const forecastData = ages
   .map((age, i) => {
     if (age < playerAge) return null;
 
     const y = playerWRC * factors[i] / factors[ageIndex];
-
     if (isNaN(y)) return null;
 
     return { x: age, y };
   })
   .filter(v => v !== null);
 
-  // Add datasets
-  chart.data.datasets.push(
-    {
-      label: `${playerName} (Current)`,
-      data: [{
-        x: playerAge,
-        y: playerWRC / playerWRC  // = 1.0 (indexed current value)
-}],
-      borderColor: 'red',
-      backgroundColor: 'red',
-      pointRadius: 6,
-      type: 'scatter'
-    },
-    {
-      label: `${playerName} (Forecast)`,
-      data: forecastData,
-      borderColor: 'red',
-      borderDash: [5, 5],
-      fill: false,
-      tension: 0.2
-    }
-  );
+// Add datasets
+chart.data.datasets.push(
+  {
+    label: `${playerName} (Current)`,
+    data: [{
+      x: playerAge,
+      y: playerWRC / playerWRC // = 1.0
+    }],
+    borderColor: 'red',
+    backgroundColor: 'red',
+    pointRadius: 6,
+    type: 'scatter'
+  },
+  {
+    label: `${playerName} (Forecast)`,
+    data: forecastData,
+    borderColor: 'red',
+    borderDash: [5, 5],
+    fill: false,
+    tension: 0.2
+  }
+);
 
-  chart.update();
+chart.update();
 }
