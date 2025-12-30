@@ -16,9 +16,9 @@ Papa.parse('data/population_curve.csv', {
 });
 
 /* -----------------------------
-   Load player JSON
+   Load precomputed player JSON
 ------------------------------ */
-fetch('data/players_sample.json')
+fetch('data/players_forecast.json')
   .then(response => response.json())
   .then(data => {
     players = data;
@@ -74,9 +74,7 @@ function initChart() {
         x: {
           type: 'linear',
           title: { display: true, text: 'Age' },
-          ticks: {
-            stepSize: 1
-          }
+          ticks: { stepSize: 1 }
         }
       }
     }
@@ -84,84 +82,57 @@ function initChart() {
 }
 
 /* -----------------------------
-   Handle player search
+   Handle player search via datalist
 ------------------------------ */
-document.getElementById('playerSearch').addEventListener('input', function () {
-  const query = this.value.toLowerCase();
-  if (query.length < 2) return;
-
-  const player = players.find(p =>
-    p.name && p.name.toLowerCase().includes(query)
-  );
-
+document.getElementById('playerSearch').addEventListener('change', function () {
+  const selectedName = this.value;
+  const player = players.find(p => p.name === selectedName);
   if (player) {
     plotPlayer(player);
   }
 });
 
 /* -----------------------------
-   Plot player on curve
+   Plot player: history + forecast
 ------------------------------ */
 function plotPlayer(player) {
   console.log("Plotting player:", player);
-
-  const playerName = player.name;
-  const playerAge = Number(player.age);
-  const playerWRC = Number(player.wRCPlus);
-
-  if (isNaN(playerAge) || isNaN(playerWRC)) {
-    console.warn("Invalid player data:", player);
-    return;
-  }
 
   // Remove old player datasets
   chart.data.datasets = chart.data.datasets.filter(
     ds => ds.label === 'Population Curve'
   );
 
-  const ages = populationCurve.map(d => d.Age);
-  const factors = populationCurve.map(d => d.AgeFactor);
+  // Historical points
+  const historyData = player.history.map(h => ({
+    x: h.age,
+    y: h.wRCPlus
+  }));
 
-  const ageIndex = ages.indexOf(playerAge);
-  if (ageIndex === -1) {
-    console.warn("Player age not found in population curve:", playerAge);
-    return;
-  }
+  // Forecast points
+  const forecastData = player.forecast.map(f => ({
+    x: f.age,
+    y: f.wRCPlus
+  }));
 
-  // Forecast future values
-const forecastData = ages
-  .map((age, i) => {
-    if (age < playerAge) return null;
+  chart.data.datasets.push(
+    {
+      label: player.name + ' History',
+      data: historyData,
+      borderColor: 'red',
+      backgroundColor: 'red',
+      pointRadius: 6,
+      type: 'scatter'
+    },
+    {
+      label: player.name + ' Forecast',
+      data: forecastData,
+      borderColor: 'red',
+      borderDash: [5, 5],
+      fill: false,
+      tension: 0.2
+    }
+  );
 
-    const y = factors[i] / factors[ageIndex];
-    if (isNaN(y)) return null;
-
-    return { x: age, y };
-  })
-  .filter(v => v !== null);
-
-// Add datasets
-chart.data.datasets.push(
-  {
-    label: `${playerName} (Current)`,
-    data: [{
-      x: playerAge,
-      y: playerWRC / playerWRC // = 1.0
-    }],
-    borderColor: 'red',
-    backgroundColor: 'red',
-    pointRadius: 6,
-    type: 'scatter'
-  },
-  {
-    label: `${playerName} (Forecast)`,
-    data: forecastData,
-    borderColor: 'red',
-    borderDash: [5, 5],
-    fill: false,
-    tension: 0.2
-  }
-);
-
-chart.update();
+  chart.update();
 }
