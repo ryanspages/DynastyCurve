@@ -23,8 +23,11 @@ fetch('data/players_forecast.json')
   .then(data => {
     players = data;
     populateDatalist();
-    initPlayerChart();   // Make sure the player chart exists
-    updateOutliers();    // Populate over/under performer lists
+    initPlayerChart();       // Initialize chart **after** players are loaded
+    updateOutliers();        // Populate over/under performer lists
+
+    // Optional: plot first player by default
+    if (players.length > 0) plotPlayer(players[0]);
   });
 
 // -----------------------------
@@ -82,17 +85,8 @@ function initPlayerChart() {
       responsive: true,
       plugins: { legend: { display: true } },
       scales: {
-        x: {
-          type: 'linear',
-          title: { display: true, text: 'Age' },
-          ticks: { stepSize: 1 },
-          min: 18,
-          max: 40
-        },
-        y: {
-          type: 'linear',
-          title: { display: true, text: 'wRC+' }
-        }
+        x: { type: 'linear', title: { display: true, text: 'Age' }, ticks: { stepSize: 1 }, min: 18, max: 40 },
+        y: { type: 'linear', title: { display: true, text: 'wRC+' } }
       }
     }
   });
@@ -117,20 +111,20 @@ function plotPlayer(player) {
   playerChart.data.datasets = [];
 
   // Historical points
-  const historyData = player.history.map(h => ({ x: h.age, y: h.wRCPlus }));
+  const historyData = player.history.map(h => ({ x: Number(h.age), y: Number(h.wRCPlus) }));
 
-  // Backtest points (if present)
-  const backtestData = (player.backtest || []).map(b => ({ x: b.age, y: b.wRCPlus }));
+  // Backtest points
+  const backtestData = (player.backtest || []).map(b => ({ x: Number(b.age), y: Number(b.wRCPlus) }));
 
   // Forecast points
-  const forecastData = player.forecast.map(f => ({ x: f.age, y: f.wRCPlus }));
+  const forecastData = player.forecast.map(f => ({ x: Number(f.age), y: Number(f.wRCPlus) }));
 
-  // Determine dynamic Y-axis min/max
+  // Combine all Y values for dynamic axis
   const allY = [
     ...historyData.map(d => d.y),
     ...backtestData.map(d => d.y),
     ...forecastData.map(d => d.y),
-    100 // include league average
+    100
   ];
   const minY = Math.floor(Math.min(...allY) / 10) * 10 - 10;
   const maxY = Math.ceil(Math.max(...allY) / 10) * 10 + 10;
@@ -138,7 +132,7 @@ function plotPlayer(player) {
   playerChart.options.scales.y.min = minY;
   playerChart.options.scales.y.max = maxY;
 
-  // League average line at 100
+  // League average line
   playerChart.data.datasets.push({
     label: 'League Avg (100 wRC+)',
     data: [{ x: 18, y: 100 }, { x: 40, y: 100 }],
@@ -159,7 +153,7 @@ function plotPlayer(player) {
   });
 
   // Backtest dataset
-  if (backtestData.length > 0) {
+  if (backtestData.length) {
     playerChart.data.datasets.push({
       label: player.name + ' Backtest',
       data: backtestData,
@@ -189,7 +183,7 @@ function plotPlayer(player) {
 function updateOutliers() {
   const diffs = players.map(p => {
     const lastSeason = p.history[p.history.length - 1];
-    const predicted = p.backtest && p.backtest.length > 0 ? p.backtest[p.backtest.length - 1] : p.forecast[0];
+    const predicted = p.backtest && p.backtest.length ? p.backtest[p.backtest.length - 1] : null;
     const delta = lastSeason && predicted ? lastSeason.wRCPlus - predicted.wRCPlus : 0;
     return { player: p, delta };
   });
