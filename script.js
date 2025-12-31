@@ -108,7 +108,7 @@ document.getElementById('playerSearch').addEventListener('change', function () {
 });
 
 // -----------------------------
-// Plot player: history + forecast with dynamic y-axis
+// Plot player: history + forecast + back-test
 // -----------------------------
 function plotPlayer(player) {
   console.log("Plotting player:", player);
@@ -122,8 +122,11 @@ function plotPlayer(player) {
   // Forecast points
   const forecastData = player.forecast.map(f => ({ x: f.age, y: f.wRCPlus }));
 
+  // Back-test points (optional)
+  const backtestData = player.backtest ? player.backtest.map(f => ({ x: f.age, y: f.wRCPlus })) : [];
+
   // Combine all Y values for dynamic axis scaling
-  const allY = [...historyData.map(d => d.y), ...forecastData.map(d => d.y), 100]; // include league avg
+  const allY = [...historyData.map(d => d.y), ...forecastData.map(d => d.y), ...backtestData.map(d => d.y), 100];
   const minY = Math.floor(Math.min(...allY) / 10) * 10 - 10;
   const maxY = Math.ceil(Math.max(...allY) / 10) * 10 + 10;
 
@@ -163,6 +166,18 @@ function plotPlayer(player) {
     tension: 0.2
   });
 
+  // Back-test dataset (if exists)
+  if (backtestData.length > 0) {
+    playerChart.data.datasets.push({
+      label: player.name + ' Back-Test',
+      data: backtestData,
+      borderColor: 'orange',
+      borderDash: [2, 2],
+      fill: false,
+      tension: 0.2
+    });
+  }
+
   playerChart.update();
 }
 
@@ -172,7 +187,7 @@ function plotPlayer(player) {
 function updateOutliers() {
   const diffs = players.map(p => {
     const lastSeason = p.history[p.history.length - 1];
-    const predicted = p.forecast[0]; // forecast for next season based on previous data
+    const predicted = p.backtest && p.backtest[0]; // use back-test for last actual season
     const delta = lastSeason && predicted ? lastSeason.wRCPlus - predicted.wRCPlus : 0;
     return { player: p, delta };
   });
