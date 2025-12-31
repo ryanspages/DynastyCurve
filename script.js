@@ -110,22 +110,37 @@ function plotPlayer(player) {
   // Clear previous datasets
   playerChart.data.datasets = [];
 
-  // Historical points
+  // -----------------------------
+  // Build data arrays
+  // -----------------------------
   const historyData = player.history.map(h => ({ x: h.age, y: h.wRCPlus }));
-
-  // Forecast points
   const forecastData = player.forecast.map(f => ({ x: f.age, y: f.wRCPlus }));
 
-  // Combine all Y values for dynamic axis
-  const allY = [...historyData.map(d => d.y), ...forecastData.map(d => d.y), 100]; // include league avg
+  // -----------------------------
+  // Dynamic Y-axis (include backtest + league avg)
+  // -----------------------------
+  const allY = [
+    ...historyData.map(d => d.y),
+    ...forecastData.map(d => d.y),
+    100 // league average
+  ];
+
+  if (player.backtest) {
+    allY.push(
+      player.backtest.expected_wRCPlus,
+      player.backtest.actual_wRCPlus
+    );
+  }
+
   const minY = Math.floor(Math.min(...allY) / 10) * 10 - 10;
   const maxY = Math.ceil(Math.max(...allY) / 10) * 10 + 10;
 
-  // Update y-axis scale dynamically
   playerChart.options.scales.y.min = minY;
   playerChart.options.scales.y.max = maxY;
 
-  // League average line at 100
+  // -----------------------------
+  // League average line
+  // -----------------------------
   playerChart.data.datasets.push({
     label: 'League Avg (100 wRC+)',
     data: [
@@ -138,7 +153,9 @@ function plotPlayer(player) {
     pointRadius: 0
   });
 
-  // Add historical dataset
+  // -----------------------------
+  // Historical performance
+  // -----------------------------
   playerChart.data.datasets.push({
     label: player.name + ' History',
     data: historyData,
@@ -148,7 +165,9 @@ function plotPlayer(player) {
     type: 'scatter'
   });
 
-  // Add forecast dataset
+  // -----------------------------
+  // Forecast
+  // -----------------------------
   playerChart.data.datasets.push({
     label: player.name + ' Forecast',
     data: forecastData,
@@ -157,6 +176,38 @@ function plotPlayer(player) {
     fill: false,
     tension: 0.2
   });
+
+  // -----------------------------
+  // Backtest: expected vs actual
+  // -----------------------------
+  if (player.backtest) {
+    const bt = player.backtest;
+
+    // Expected point (model)
+    playerChart.data.datasets.push({
+      label: 'Expected (model)',
+      data: [{ x: bt.age, y: bt.expected_wRCPlus }],
+      borderColor: 'orange',
+      backgroundColor: 'white',
+      pointBorderColor: 'orange',
+      pointRadius: 7,
+      pointStyle: 'circle',
+      type: 'scatter'
+    });
+
+    // Connector line: expected → actual
+    playerChart.data.datasets.push({
+      label: 'Expected → Actual',
+      data: [
+        { x: bt.age, y: bt.expected_wRCPlus },
+        { x: bt.age, y: bt.actual_wRCPlus }
+      ],
+      borderColor: 'orange',
+      borderDash: [2, 2],
+      fill: false,
+      pointRadius: 0
+    });
+  }
 
   playerChart.update();
 }

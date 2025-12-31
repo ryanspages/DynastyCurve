@@ -35,7 +35,13 @@
         "age": 38,
         "wRCPlus": 59.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 34,
+      "expected_wRCPlus": 117.1,
+      "actual_wRCPlus": 92.1,
+      "delta": -25.0
+    }
   },
   {
     "name": "Aaron Hicks",
@@ -72,7 +78,13 @@
         "age": 38,
         "wRCPlus": 51.8
       }
-    ]
+    ],
+    "backtest": {
+      "age": 33,
+      "expected_wRCPlus": 81.4,
+      "actual_wRCPlus": 108.5,
+      "delta": 27.1
+    }
   },
   {
     "name": "Aaron Judge",
@@ -129,7 +141,13 @@
         "age": 38,
         "wRCPlus": 103.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 33,
+      "expected_wRCPlus": 179.5,
+      "actual_wRCPlus": 204.5,
+      "delta": 25.0
+    }
   },
   {
     "name": "Abraham Toro",
@@ -171,7 +189,13 @@
         "age": 32,
         "wRCPlus": 69.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 27,
+      "expected_wRCPlus": 77.1,
+      "actual_wRCPlus": 86.8,
+      "delta": 9.7
+    }
   },
   {
     "name": "Adalberto Mondesi",
@@ -203,7 +227,8 @@
         "age": 28,
         "wRCPlus": 89.5
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Adam Duvall",
@@ -242,7 +267,13 @@
         "age": 38,
         "wRCPlus": 49.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 35,
+      "expected_wRCPlus": 89.2,
+      "actual_wRCPlus": 58.5,
+      "delta": -30.7
+    }
   },
   {
     "name": "Adam Eaton",
@@ -274,7 +305,8 @@
         "age": 35,
         "wRCPlus": 70.5
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Adam Frazier",
@@ -326,7 +358,13 @@
         "age": 38,
         "wRCPlus": 45.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 33,
+      "expected_wRCPlus": 76.2,
+      "actual_wRCPlus": 88.6,
+      "delta": 12.3
+    }
   },
   {
     "name": "Adam Jones",
@@ -358,7 +396,8 @@
         "age": 38,
         "wRCPlus": 46.2
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Addison Barger",
@@ -390,7 +429,8 @@
         "age": 30,
         "wRCPlus": 101.3
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Adley Rutschman",
@@ -437,7 +477,13 @@
         "age": 32,
         "wRCPlus": 87.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 27,
+      "expected_wRCPlus": 116.8,
+      "actual_wRCPlus": 91.2,
+      "delta": -25.6
+    }
   },
   {
     "name": "Adolis Garc\u00eda",
@@ -489,7 +535,13 @@
         "age": 37,
         "wRCPlus": 48.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 32,
+      "expected_wRCPlus": 95.0,
+      "actual_wRCPlus": 82.8,
+      "delta": -12.2
+    }
   },
   {
     "name": "Agust\u00edn Ram\u00edrez",
@@ -521,7 +573,8 @@
         "age": 28,
         "wRCPlus": 100.0
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Akil Baddoo",
@@ -558,7 +611,13 @@
         "age": 29,
         "wRCPlus": 97.8
       }
-    ]
+    ],
+    "backtest": {
+      "age": 24,
+      "expected_wRCPlus": 119.8,
+      "actual_wRCPlus": 88.0,
+      "delta": -31.8
+    }
   },
   {
     "name": "Albert Almora Jr.",
@@ -590,7 +649,8 @@
         "age": 30,
         "wRCPlus": 59.2
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Alcides Escobar",
@@ -618,7 +678,8 @@
         "age": 38,
         "wRCPlus": 59.7
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Alec Bohm",
@@ -670,7 +731,13 @@
         "age": 33,
         "wRCPlus": 80.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 107.3,
+      "actual_wRCPlus": 104.8,
+      "delta": -2.4
+    }
   },
   {
     "name": "Alec Burleson",
@@ -712,7 +779,13 @@
         "age": 31,
         "wRCPlus": 104.1
       }
-    ]
+    ],
+    "backtest": {
+      "age": 26,
+      "expected_wRCPlus": 103.7,
+      "actual_wRCPlus": 124.5,
+      "delta": 20.7
+    }
   },
   {
     "name": "Aledmys D\u00edaz",
@@ -754,7 +827,13 @@
         "age": 37,
         "wRCPlus": 42.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 32,
+      "expected_wRCPlus": 89.0,
+      "actual_wRCPlus": 70.6,
+      "delta": -18.4
+    }
   },
   {
     "name": "Alejandro Kirk",
@@ -801,7 +880,13 @@
         "age": 31,
         "wRCPlus": 99.5
       }
-    ]
+    ],
+    "backtest": {
+      "age": 26,
+      "expected_wRCPlus": 104.3,
+      "actual_wRCPlus": 115.6,
+      "delta": 11.2
+    }
   },
   {
     "name": "Alek Thomas",
@@ -843,7 +928,13 @@
         "age": 30,
         "wRCPlus": 76.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 25,
+      "expected_wRCPlus": 78.1,
+      "actual_wRCPlus": 81.3,
+      "delta": 3.2
+    }
   },
   {
     "name": "Alex Bregman",
@@ -900,7 +991,13 @@
         "age": 36,
         "wRCPlus": 70.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 31,
+      "expected_wRCPlus": 114.3,
+      "actual_wRCPlus": 125.3,
+      "delta": 11.0
+    }
   },
   {
     "name": "Alex Call",
@@ -937,7 +1034,13 @@
         "age": 35,
         "wRCPlus": 66.1
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 67.9,
+      "actual_wRCPlus": 112.8,
+      "delta": 44.9
+    }
   },
   {
     "name": "Alex Dickerson",
@@ -969,7 +1072,8 @@
         "age": 36,
         "wRCPlus": 57.8
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Alex Gordon",
@@ -993,7 +1097,8 @@
         "age": 38,
         "wRCPlus": 63.6
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Alex Kirilloff",
@@ -1025,7 +1130,8 @@
         "age": 30,
         "wRCPlus": 111.8
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Alex Verdugo",
@@ -1077,7 +1183,13 @@
         "age": 33,
         "wRCPlus": 70.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 102.0,
+      "actual_wRCPlus": 84.5,
+      "delta": -17.4
+    }
   },
   {
     "name": "Amed Rosario",
@@ -1129,7 +1241,13 @@
         "age": 33,
         "wRCPlus": 72.6
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 95.4,
+      "actual_wRCPlus": 96.4,
+      "delta": 0.9
+    }
   },
   {
     "name": "Andrelton Simmons",
@@ -1166,7 +1284,13 @@
         "age": 36,
         "wRCPlus": 35.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 31,
+      "expected_wRCPlus": 71.1,
+      "actual_wRCPlus": 58.0,
+      "delta": -13.1
+    }
   },
   {
     "name": "Andrew Benintendi",
@@ -1223,7 +1347,13 @@
         "age": 35,
         "wRCPlus": 62.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 90.5,
+      "actual_wRCPlus": 102.6,
+      "delta": 12.1
+    }
   },
   {
     "name": "Andrew McCutchen",
@@ -1254,7 +1384,13 @@
         "PA": 551.0
       }
     ],
-    "forecast": []
+    "forecast": [],
+    "backtest": {
+      "age": 38,
+      "expected_wRCPlus": 86.2,
+      "actual_wRCPlus": 95.3,
+      "delta": 9.1
+    }
   },
   {
     "name": "Andrew Vaughn",
@@ -1306,7 +1442,13 @@
         "age": 32,
         "wRCPlus": 83.5
       }
-    ]
+    ],
+    "backtest": {
+      "age": 27,
+      "expected_wRCPlus": 104.1,
+      "actual_wRCPlus": 99.1,
+      "delta": -5.0
+    }
   },
   {
     "name": "Andrew Velazquez",
@@ -1338,7 +1480,8 @@
         "age": 32,
         "wRCPlus": 40.6
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Andruw Monasterio",
@@ -1370,7 +1513,8 @@
         "age": 31,
         "wRCPlus": 79.6
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Andr\u00e9s Gim\u00e9nez",
@@ -1417,7 +1561,13 @@
         "age": 31,
         "wRCPlus": 77.8
       }
-    ]
+    ],
+    "backtest": {
+      "age": 26,
+      "expected_wRCPlus": 97.7,
+      "actual_wRCPlus": 70.4,
+      "delta": -27.3
+    }
   },
   {
     "name": "Andy Ib\u00e1\u00f1ez",
@@ -1449,7 +1599,8 @@
         "age": 35,
         "wRCPlus": 67.0
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Andy Pages",
@@ -1486,7 +1637,13 @@
         "age": 29,
         "wRCPlus": 113.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 24,
+      "expected_wRCPlus": 102.8,
+      "actual_wRCPlus": 113.5,
+      "delta": 10.7
+    }
   },
   {
     "name": "Angel Mart\u00ednez",
@@ -1518,7 +1675,8 @@
         "age": 28,
         "wRCPlus": 81.7
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Anthony Rendon",
@@ -1550,7 +1708,8 @@
         "age": 34,
         "wRCPlus": 109.6
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Anthony Rizzo",
@@ -1598,7 +1757,13 @@
         "age": 38,
         "wRCPlus": 53.5
       }
-    ]
+    ],
+    "backtest": {
+      "age": 34,
+      "expected_wRCPlus": 95.7,
+      "actual_wRCPlus": 85.5,
+      "delta": -10.3
+    }
   },
   {
     "name": "Anthony Santander",
@@ -1650,7 +1815,13 @@
         "age": 34,
         "wRCPlus": 85.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 29,
+      "expected_wRCPlus": 112.4,
+      "actual_wRCPlus": 128.3,
+      "delta": 15.8
+    }
   },
   {
     "name": "Anthony Volpe",
@@ -1692,7 +1863,13 @@
         "age": 29,
         "wRCPlus": 88.6
       }
-    ]
+    ],
+    "backtest": {
+      "age": 24,
+      "expected_wRCPlus": 91.4,
+      "actual_wRCPlus": 82.9,
+      "delta": -8.5
+    }
   },
   {
     "name": "Asdr\u00fabal Cabrera",
@@ -1721,7 +1898,13 @@
         "age": 38,
         "wRCPlus": 54.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 35,
+      "expected_wRCPlus": 78.4,
+      "actual_wRCPlus": 83.5,
+      "delta": 5.1
+    }
   },
   {
     "name": "Austin Hays",
@@ -1768,7 +1951,13 @@
         "age": 34,
         "wRCPlus": 74.3
       }
-    ]
+    ],
+    "backtest": {
+      "age": 29,
+      "expected_wRCPlus": 105.7,
+      "actual_wRCPlus": 104.5,
+      "delta": -1.1
+    }
   },
   {
     "name": "Austin Hedges",
@@ -1810,7 +1999,13 @@
         "age": 34,
         "wRCPlus": 30.1
       }
-    ]
+    ],
+    "backtest": {
+      "age": 29,
+      "expected_wRCPlus": 42.2,
+      "actual_wRCPlus": 42.7,
+      "delta": 0.6
+    }
   },
   {
     "name": "Austin Meadows",
@@ -1847,7 +2042,13 @@
         "age": 31,
         "wRCPlus": 107.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 26,
+      "expected_wRCPlus": 150.0,
+      "actual_wRCPlus": 112.1,
+      "delta": -37.9
+    }
   },
   {
     "name": "Austin Nola",
@@ -1879,7 +2080,8 @@
         "age": 37,
         "wRCPlus": 48.8
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Austin Riley",
@@ -1931,7 +2133,13 @@
         "age": 33,
         "wRCPlus": 88.1
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 127.0,
+      "actual_wRCPlus": 103.2,
+      "delta": -23.8
+    }
   },
   {
     "name": "Austin Slater",
@@ -1968,7 +2176,13 @@
         "age": 34,
         "wRCPlus": 82.6
       }
-    ]
+    ],
+    "backtest": {
+      "age": 29,
+      "expected_wRCPlus": 99.8,
+      "actual_wRCPlus": 124.5,
+      "delta": 24.6
+    }
   },
   {
     "name": "Austin Wells",
@@ -2005,7 +2219,13 @@
         "age": 30,
         "wRCPlus": 93.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 25,
+      "expected_wRCPlus": 110.0,
+      "actual_wRCPlus": 93.9,
+      "delta": -16.1
+    }
   },
   {
     "name": "Avisa\u00edl Garc\u00eda",
@@ -2047,7 +2267,13 @@
         "age": 36,
         "wRCPlus": 49.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 31,
+      "expected_wRCPlus": 108.4,
+      "actual_wRCPlus": 61.3,
+      "delta": -47.1
+    }
   },
   {
     "name": "Ben Gamel",
@@ -2089,7 +2315,13 @@
         "age": 35,
         "wRCPlus": 61.3
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 92.2,
+      "actual_wRCPlus": 95.0,
+      "delta": 2.8
+    }
   },
   {
     "name": "Ben Rice",
@@ -2121,7 +2353,8 @@
         "age": 31,
         "wRCPlus": 119.1
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Ben Rortvedt",
@@ -2153,7 +2386,8 @@
         "age": 31,
         "wRCPlus": 78.1
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Billy Hamilton",
@@ -2185,7 +2419,8 @@
         "age": 33,
         "wRCPlus": 37.4
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Billy McKinney",
@@ -2217,7 +2452,8 @@
         "age": 31,
         "wRCPlus": 65.5
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Blake Perkins",
@@ -2249,7 +2485,8 @@
         "age": 32,
         "wRCPlus": 69.0
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Blake Sabol",
@@ -2281,7 +2518,8 @@
         "age": 30,
         "wRCPlus": 86.2
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Bo Bichette",
@@ -2333,7 +2571,13 @@
         "age": 32,
         "wRCPlus": 101.3
       }
-    ]
+    ],
+    "backtest": {
+      "age": 27,
+      "expected_wRCPlus": 109.3,
+      "actual_wRCPlus": 133.7,
+      "delta": 24.5
+    }
   },
   {
     "name": "Bo Naylor",
@@ -2370,7 +2614,13 @@
         "age": 30,
         "wRCPlus": 77.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 25,
+      "expected_wRCPlus": 76.5,
+      "actual_wRCPlus": 84.5,
+      "delta": 8.0
+    }
   },
   {
     "name": "Bobby Dalbec",
@@ -2407,7 +2657,13 @@
         "age": 32,
         "wRCPlus": 74.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 27,
+      "expected_wRCPlus": 108.2,
+      "actual_wRCPlus": 79.6,
+      "delta": -28.6
+    }
   },
   {
     "name": "Bobby Witt Jr.",
@@ -2454,7 +2710,13 @@
         "age": 30,
         "wRCPlus": 133.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 25,
+      "expected_wRCPlus": 152.1,
+      "actual_wRCPlus": 129.7,
+      "delta": -22.4
+    }
   },
   {
     "name": "Brad Miller",
@@ -2486,7 +2748,8 @@
         "age": 36,
         "wRCPlus": 62.5
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Bradley Zimmer",
@@ -2518,7 +2781,8 @@
         "age": 33,
         "wRCPlus": 69.0
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Brandon Belt",
@@ -2552,7 +2816,13 @@
         "age": 38,
         "wRCPlus": 87.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 35,
+      "expected_wRCPlus": 109.6,
+      "actual_wRCPlus": 137.4,
+      "delta": 27.7
+    }
   },
   {
     "name": "Brandon Crawford",
@@ -2587,7 +2857,13 @@
         "age": 38,
         "wRCPlus": 56.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 36,
+      "expected_wRCPlus": 83.5,
+      "actual_wRCPlus": 62.1,
+      "delta": -21.4
+    }
   },
   {
     "name": "Brandon Dixon",
@@ -2619,7 +2895,8 @@
         "age": 32,
         "wRCPlus": 71.1
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Brandon Drury",
@@ -2666,7 +2943,13 @@
         "age": 36,
         "wRCPlus": 44.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 31,
+      "expected_wRCPlus": 109.1,
+      "actual_wRCPlus": 35.2,
+      "delta": -74.0
+    }
   },
   {
     "name": "Brandon Lowe",
@@ -2718,7 +3001,13 @@
         "age": 35,
         "wRCPlus": 74.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 116.2,
+      "actual_wRCPlus": 114.0,
+      "delta": -2.3
+    }
   },
   {
     "name": "Brandon Marsh",
@@ -2765,7 +3054,13 @@
         "age": 32,
         "wRCPlus": 93.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 27,
+      "expected_wRCPlus": 112.6,
+      "actual_wRCPlus": 116.3,
+      "delta": 3.8
+    }
   },
   {
     "name": "Brandon Nimmo",
@@ -2817,7 +3112,13 @@
         "age": 37,
         "wRCPlus": 60.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 32,
+      "expected_wRCPlus": 106.9,
+      "actual_wRCPlus": 114.1,
+      "delta": 7.1
+    }
   },
   {
     "name": "Brayan Rocchio",
@@ -2854,7 +3155,13 @@
         "age": 29,
         "wRCPlus": 81.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 24,
+      "expected_wRCPlus": 82.8,
+      "actual_wRCPlus": 77.3,
+      "delta": -5.4
+    }
   },
   {
     "name": "Brendan Donovan",
@@ -2901,7 +3208,13 @@
         "age": 33,
         "wRCPlus": 89.3
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 117.0,
+      "actual_wRCPlus": 118.6,
+      "delta": 1.6
+    }
   },
   {
     "name": "Brendan Rodgers",
@@ -2943,7 +3256,13 @@
         "age": 32,
         "wRCPlus": 73.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 27,
+      "expected_wRCPlus": 98.5,
+      "actual_wRCPlus": 87.1,
+      "delta": -11.5
+    }
   },
   {
     "name": "Brent Rooker",
@@ -2985,7 +3304,13 @@
         "age": 35,
         "wRCPlus": 85.3
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 144.9,
+      "actual_wRCPlus": 122.0,
+      "delta": -22.9
+    }
   },
   {
     "name": "Brenton Doyle",
@@ -3027,7 +3352,13 @@
         "age": 32,
         "wRCPlus": 60.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 27,
+      "expected_wRCPlus": 84.7,
+      "actual_wRCPlus": 65.2,
+      "delta": -19.6
+    }
   },
   {
     "name": "Brett Baty",
@@ -3064,7 +3395,13 @@
         "age": 30,
         "wRCPlus": 98.1
       }
-    ]
+    ],
+    "backtest": {
+      "age": 25,
+      "expected_wRCPlus": 71.7,
+      "actual_wRCPlus": 110.6,
+      "delta": 38.9
+    }
   },
   {
     "name": "Brett Gardner",
@@ -3085,7 +3422,13 @@
         "age": 38,
         "wRCPlus": 82.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 37,
+      "expected_wRCPlus": 86.5,
+      "actual_wRCPlus": 94.6,
+      "delta": 8.0
+    }
   },
   {
     "name": "Brian Anderson",
@@ -3127,7 +3470,13 @@
         "age": 35,
         "wRCPlus": 56.1
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 85.3,
+      "actual_wRCPlus": 86.5,
+      "delta": 1.3
+    }
   },
   {
     "name": "Brian Dozier",
@@ -3159,7 +3508,8 @@
         "age": 37,
         "wRCPlus": 54.9
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Brian Goodwin",
@@ -3191,7 +3541,8 @@
         "age": 33,
         "wRCPlus": 80.4
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Brian McCann",
@@ -3215,7 +3566,8 @@
         "age": 38,
         "wRCPlus": 58.6
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Brice Turang",
@@ -3257,7 +3609,13 @@
         "age": 30,
         "wRCPlus": 102.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 25,
+      "expected_wRCPlus": 84.4,
+      "actual_wRCPlus": 123.6,
+      "delta": 39.2
+    }
   },
   {
     "name": "Brooks Baldwin",
@@ -3289,7 +3647,8 @@
         "age": 29,
         "wRCPlus": 94.0
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Brooks Lee",
@@ -3321,7 +3680,8 @@
         "age": 29,
         "wRCPlus": 82.3
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Bryan De La Cruz",
@@ -3363,7 +3723,13 @@
         "age": 32,
         "wRCPlus": 69.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 27,
+      "expected_wRCPlus": 94.7,
+      "actual_wRCPlus": 78.2,
+      "delta": -16.6
+    }
   },
   {
     "name": "Bryan Reynolds",
@@ -3420,7 +3786,13 @@
         "age": 35,
         "wRCPlus": 68.6
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 111.8,
+      "actual_wRCPlus": 99.3,
+      "delta": -12.5
+    }
   },
   {
     "name": "Bryce Harper",
@@ -3477,7 +3849,13 @@
         "age": 37,
         "wRCPlus": 71.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 32,
+      "expected_wRCPlus": 130.4,
+      "actual_wRCPlus": 131.2,
+      "delta": 0.8
+    }
   },
   {
     "name": "Bryson Stott",
@@ -3524,7 +3902,13 @@
         "age": 32,
         "wRCPlus": 79.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 27,
+      "expected_wRCPlus": 93.5,
+      "actual_wRCPlus": 99.9,
+      "delta": 6.4
+    }
   },
   {
     "name": "Buster Posey",
@@ -3557,7 +3941,13 @@
         "age": 38,
         "wRCPlus": 74.6
       }
-    ]
+    ],
+    "backtest": {
+      "age": 34,
+      "expected_wRCPlus": 69.9,
+      "actual_wRCPlus": 140.8,
+      "delta": 70.9
+    }
   },
   {
     "name": "Byron Buxton",
@@ -3604,7 +3994,13 @@
         "age": 36,
         "wRCPlus": 76.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 31,
+      "expected_wRCPlus": 119.9,
+      "actual_wRCPlus": 136.3,
+      "delta": 16.4
+    }
   },
   {
     "name": "C.J. Cron",
@@ -3646,7 +4042,13 @@
         "age": 37,
         "wRCPlus": 58.1
       }
-    ]
+    ],
+    "backtest": {
+      "age": 32,
+      "expected_wRCPlus": 111.2,
+      "actual_wRCPlus": 103.0,
+      "delta": -8.3
+    }
   },
   {
     "name": "CJ Abrams",
@@ -3693,7 +4095,13 @@
         "age": 29,
         "wRCPlus": 109.6
       }
-    ]
+    ],
+    "backtest": {
+      "age": 24,
+      "expected_wRCPlus": 107.4,
+      "actual_wRCPlus": 107.3,
+      "delta": -0.1
+    }
   },
   {
     "name": "Cal Raleigh",
@@ -3740,7 +4148,13 @@
         "age": 33,
         "wRCPlus": 108.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 116.8,
+      "actual_wRCPlus": 161.1,
+      "delta": 44.3
+    }
   },
   {
     "name": "Caleb Durbin",
@@ -3772,7 +4186,8 @@
         "age": 30,
         "wRCPlus": 99.7
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Cam Smith",
@@ -3804,7 +4219,8 @@
         "age": 27,
         "wRCPlus": 106.2
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Carlos Correa",
@@ -3861,7 +4277,13 @@
         "age": 35,
         "wRCPlus": 73.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 122.8,
+      "actual_wRCPlus": 106.2,
+      "delta": -16.6
+    }
   },
   {
     "name": "Carlos Narv\u00e1ez",
@@ -3893,7 +4315,8 @@
         "age": 31,
         "wRCPlus": 87.5
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Carlos Santana",
@@ -3929,7 +4352,8 @@
         "PA": 474.0
       }
     ],
-    "forecast": []
+    "forecast": [],
+    "backtest": null
   },
   {
     "name": "Carson Kelly",
@@ -3981,7 +4405,13 @@
         "age": 35,
         "wRCPlus": 69.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 89.6,
+      "actual_wRCPlus": 114.5,
+      "delta": 24.9
+    }
   },
   {
     "name": "Casey Schmitt",
@@ -4013,7 +4443,8 @@
         "age": 31,
         "wRCPlus": 88.4
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Cavan Biggio",
@@ -4055,7 +4486,13 @@
         "age": 33,
         "wRCPlus": 76.5
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 99.7,
+      "actual_wRCPlus": 101.7,
+      "delta": 2.0
+    }
   },
   {
     "name": "Ceddanne Rafaela",
@@ -4092,7 +4529,13 @@
         "age": 29,
         "wRCPlus": 91.1
       }
-    ]
+    ],
+    "backtest": {
+      "age": 24,
+      "expected_wRCPlus": 84.5,
+      "actual_wRCPlus": 91.5,
+      "delta": 7.0
+    }
   },
   {
     "name": "Cedric Mullins",
@@ -4144,7 +4587,13 @@
         "age": 35,
         "wRCPlus": 63.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 99.6,
+      "actual_wRCPlus": 94.1,
+      "delta": -5.5
+    }
   },
   {
     "name": "Chad Pinder",
@@ -4181,7 +4630,13 @@
         "age": 35,
         "wRCPlus": 55.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 80.2,
+      "actual_wRCPlus": 84.8,
+      "delta": 4.6
+    }
   },
   {
     "name": "Chandler Simpson",
@@ -4213,7 +4668,8 @@
         "age": 29,
         "wRCPlus": 89.6
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Charlie Blackmon",
@@ -4249,7 +4705,13 @@
         "age": 38,
         "wRCPlus": 76.6
       }
-    ]
+    ],
+    "backtest": {
+      "age": 37,
+      "expected_wRCPlus": 78.2,
+      "actual_wRCPlus": 93.3,
+      "delta": 15.1
+    }
   },
   {
     "name": "Chas McCormick",
@@ -4291,7 +4753,13 @@
         "age": 33,
         "wRCPlus": 94.5
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 112.2,
+      "actual_wRCPlus": 132.5,
+      "delta": 20.3
+    }
   },
   {
     "name": "Chase Meidroth",
@@ -4323,7 +4791,8 @@
         "age": 28,
         "wRCPlus": 95.2
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Cheslor Cuthbert",
@@ -4355,7 +4824,8 @@
         "age": 31,
         "wRCPlus": 66.5
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Chris Davis",
@@ -4387,7 +4857,8 @@
         "age": 38,
         "wRCPlus": 30.8
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Chris Taylor",
@@ -4434,7 +4905,13 @@
         "age": 37,
         "wRCPlus": 53.3
       }
-    ]
+    ],
+    "backtest": {
+      "age": 32,
+      "expected_wRCPlus": 91.7,
+      "actual_wRCPlus": 102.6,
+      "delta": 11.0
+    }
   },
   {
     "name": "Christian Arroyo",
@@ -4466,7 +4943,8 @@
         "age": 32,
         "wRCPlus": 83.6
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Christian Bethancourt",
@@ -4503,7 +4981,13 @@
         "age": 36,
         "wRCPlus": 47.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 31,
+      "expected_wRCPlus": 94.8,
+      "actual_wRCPlus": 72.9,
+      "delta": -21.9
+    }
   },
   {
     "name": "Christian V\u00e1zquez",
@@ -4555,7 +5039,13 @@
         "age": 38,
         "wRCPlus": 33.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 33,
+      "expected_wRCPlus": 67.3,
+      "actual_wRCPlus": 59.1,
+      "delta": -8.2
+    }
   },
   {
     "name": "Christian Walker",
@@ -4608,7 +5098,13 @@
         "age": 38,
         "wRCPlus": 58.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 34,
+      "expected_wRCPlus": 101.0,
+      "actual_wRCPlus": 98.9,
+      "delta": -2.0
+    }
   },
   {
     "name": "Christian Yelich",
@@ -4665,7 +5161,13 @@
         "age": 38,
         "wRCPlus": 63.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 33,
+      "expected_wRCPlus": 113.7,
+      "actual_wRCPlus": 121.4,
+      "delta": 7.8
+    }
   },
   {
     "name": "Christin Stewart",
@@ -4697,7 +5199,8 @@
         "age": 30,
         "wRCPlus": 76.1
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Christopher Morel",
@@ -4744,7 +5247,13 @@
         "age": 31,
         "wRCPlus": 84.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 26,
+      "expected_wRCPlus": 96.2,
+      "actual_wRCPlus": 89.6,
+      "delta": -6.6
+    }
   },
   {
     "name": "Cody Bellinger",
@@ -4801,7 +5310,13 @@
         "age": 34,
         "wRCPlus": 82.6
       }
-    ]
+    ],
+    "backtest": {
+      "age": 29,
+      "expected_wRCPlus": 107.1,
+      "actual_wRCPlus": 125.0,
+      "delta": 18.0
+    }
   },
   {
     "name": "Colin Moran",
@@ -4838,7 +5353,13 @@
         "age": 33,
         "wRCPlus": 72.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 94.4,
+      "actual_wRCPlus": 96.1,
+      "delta": 1.7
+    }
   },
   {
     "name": "Colt Keith",
@@ -4875,7 +5396,13 @@
         "age": 28,
         "wRCPlus": 116.3
       }
-    ]
+    ],
+    "backtest": {
+      "age": 23,
+      "expected_wRCPlus": 100.9,
+      "actual_wRCPlus": 108.5,
+      "delta": 7.6
+    }
   },
   {
     "name": "Colton Cowser",
@@ -4912,7 +5439,13 @@
         "age": 30,
         "wRCPlus": 94.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 25,
+      "expected_wRCPlus": 122.4,
+      "actual_wRCPlus": 82.6,
+      "delta": -39.9
+    }
   },
   {
     "name": "Connor Joe",
@@ -4954,7 +5487,13 @@
         "age": 36,
         "wRCPlus": 55.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 31,
+      "expected_wRCPlus": 94.9,
+      "actual_wRCPlus": 92.8,
+      "delta": -2.1
+    }
   },
   {
     "name": "Connor Norby",
@@ -4986,7 +5525,8 @@
         "age": 30,
         "wRCPlus": 85.1
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Connor Wong",
@@ -5023,7 +5563,13 @@
         "age": 33,
         "wRCPlus": 77.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 78.6,
+      "actual_wRCPlus": 112.0,
+      "delta": 33.4
+    }
   },
   {
     "name": "Corbin Carroll",
@@ -5065,7 +5611,13 @@
         "age": 29,
         "wRCPlus": 134.8
       }
-    ]
+    ],
+    "backtest": {
+      "age": 24,
+      "expected_wRCPlus": 123.0,
+      "actual_wRCPlus": 139.1,
+      "delta": 16.1
+    }
   },
   {
     "name": "Corey Dickerson",
@@ -5097,7 +5649,8 @@
         "age": 37,
         "wRCPlus": 53.2
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Corey Julks",
@@ -5129,7 +5682,8 @@
         "age": 32,
         "wRCPlus": 65.2
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Corey Seager",
@@ -5186,7 +5740,13 @@
         "age": 36,
         "wRCPlus": 80.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 31,
+      "expected_wRCPlus": 135.5,
+      "actual_wRCPlus": 137.7,
+      "delta": 2.2
+    }
   },
   {
     "name": "Curtis Granderson",
@@ -5197,7 +5757,8 @@
         "PA": 363.0
       }
     ],
-    "forecast": []
+    "forecast": [],
+    "backtest": null
   },
   {
     "name": "C\u00e9sar Hern\u00e1ndez",
@@ -5239,7 +5800,13 @@
         "age": 37,
         "wRCPlus": 45.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 32,
+      "expected_wRCPlus": 83.7,
+      "actual_wRCPlus": 80.8,
+      "delta": -2.9
+    }
   },
   {
     "name": "DJ LeMahieu",
@@ -5282,7 +5849,13 @@
         "age": 38,
         "wRCPlus": 58.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 34,
+      "expected_wRCPlus": 97.0,
+      "actual_wRCPlus": 100.1,
+      "delta": 3.2
+    }
   },
   {
     "name": "DJ Stewart",
@@ -5314,7 +5887,8 @@
         "age": 32,
         "wRCPlus": 76.8
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Dane Myers",
@@ -5346,7 +5920,8 @@
         "age": 34,
         "wRCPlus": 51.3
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Daniel Murphy",
@@ -5374,7 +5949,8 @@
         "age": 38,
         "wRCPlus": 51.6
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Daniel Schneemann",
@@ -5406,7 +5982,8 @@
         "age": 33,
         "wRCPlus": 59.8
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Daniel Vogelbach",
@@ -5448,7 +6025,13 @@
         "age": 35,
         "wRCPlus": 73.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 118.4,
+      "actual_wRCPlus": 107.6,
+      "delta": -10.8
+    }
   },
   {
     "name": "Danny Jansen",
@@ -5495,7 +6078,13 @@
         "age": 35,
         "wRCPlus": 64.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 92.2,
+      "actual_wRCPlus": 103.1,
+      "delta": 10.9
+    }
   },
   {
     "name": "Danny Santana",
@@ -5527,7 +6116,8 @@
         "age": 33,
         "wRCPlus": 84.0
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Dansby Swanson",
@@ -5584,7 +6174,13 @@
         "age": 36,
         "wRCPlus": 57.5
       }
-    ]
+    ],
+    "backtest": {
+      "age": 31,
+      "expected_wRCPlus": 95.0,
+      "actual_wRCPlus": 99.4,
+      "delta": 4.4
+    }
   },
   {
     "name": "Darin Ruf",
@@ -5613,7 +6209,13 @@
         "age": 38,
         "wRCPlus": 66.5
       }
-    ]
+    ],
+    "backtest": {
+      "age": 35,
+      "expected_wRCPlus": 127.4,
+      "actual_wRCPlus": 88.7,
+      "delta": -38.7
+    }
   },
   {
     "name": "Daulton Varsho",
@@ -5660,7 +6262,13 @@
         "age": 32,
         "wRCPlus": 79.5
       }
-    ]
+    ],
+    "backtest": {
+      "age": 27,
+      "expected_wRCPlus": 95.0,
+      "actual_wRCPlus": 98.6,
+      "delta": 3.6
+    }
   },
   {
     "name": "David Bote",
@@ -5697,7 +6305,13 @@
         "age": 33,
         "wRCPlus": 56.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 105.9,
+      "actual_wRCPlus": 65.9,
+      "delta": -40.0
+    }
   },
   {
     "name": "David Dahl",
@@ -5729,7 +6343,8 @@
         "age": 30,
         "wRCPlus": 105.6
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "David Fletcher",
@@ -5766,7 +6381,13 @@
         "age": 32,
         "wRCPlus": 61.6
       }
-    ]
+    ],
+    "backtest": {
+      "age": 27,
+      "expected_wRCPlus": 99.2,
+      "actual_wRCPlus": 69.2,
+      "delta": -30.1
+    }
   },
   {
     "name": "David Fry",
@@ -5798,7 +6419,8 @@
         "age": 33,
         "wRCPlus": 98.1
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "David Hamilton",
@@ -5830,7 +6452,8 @@
         "age": 31,
         "wRCPlus": 84.5
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "David Peralta",
@@ -5869,7 +6492,13 @@
         "age": 38,
         "wRCPlus": 55.1
       }
-    ]
+    ],
+    "backtest": {
+      "age": 35,
+      "expected_wRCPlus": 85.0,
+      "actual_wRCPlus": 80.4,
+      "delta": -4.6
+    }
   },
   {
     "name": "Davis Schneider",
@@ -5901,7 +6530,8 @@
         "age": 30,
         "wRCPlus": 75.7
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Daylen Lile",
@@ -5933,7 +6563,8 @@
         "age": 27,
         "wRCPlus": 155.9
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Dee Strange-Gordon",
@@ -5965,7 +6596,8 @@
         "age": 36,
         "wRCPlus": 45.7
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Delino DeShields",
@@ -5997,7 +6629,8 @@
         "age": 31,
         "wRCPlus": 65.0
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Derek Dietrich",
@@ -6029,7 +6662,8 @@
         "age": 34,
         "wRCPlus": 70.8
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Dexter Fowler",
@@ -6061,7 +6695,8 @@
         "age": 38,
         "wRCPlus": 55.2
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Didi Gregorius",
@@ -6098,7 +6733,13 @@
         "age": 36,
         "wRCPlus": 41.6
       }
-    ]
+    ],
+    "backtest": {
+      "age": 31,
+      "expected_wRCPlus": 76.7,
+      "actual_wRCPlus": 69.1,
+      "delta": -7.6
+    }
   },
   {
     "name": "Dillon Dingler",
@@ -6130,7 +6771,8 @@
         "age": 31,
         "wRCPlus": 97.8
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Domingo Santana",
@@ -6162,7 +6804,8 @@
         "age": 31,
         "wRCPlus": 96.2
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Dominic Smith",
@@ -6204,7 +6847,13 @@
         "age": 34,
         "wRCPlus": 64.1
       }
-    ]
+    ],
+    "backtest": {
+      "age": 29,
+      "expected_wRCPlus": 87.0,
+      "actual_wRCPlus": 94.4,
+      "delta": 7.4
+    }
   },
   {
     "name": "Donovan Solano",
@@ -6239,7 +6888,13 @@
         "age": 38,
         "wRCPlus": 79.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 36,
+      "expected_wRCPlus": 90.6,
+      "actual_wRCPlus": 117.3,
+      "delta": 26.6
+    }
   },
   {
     "name": "Drake Baldwin",
@@ -6271,7 +6926,8 @@
         "age": 29,
         "wRCPlus": 128.0
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Drew Waters",
@@ -6303,7 +6959,8 @@
         "age": 29,
         "wRCPlus": 84.7
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Dwight Smith Jr.",
@@ -6335,7 +6992,8 @@
         "age": 31,
         "wRCPlus": 74.1
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Dylan Carlson",
@@ -6372,7 +7030,13 @@
         "age": 28,
         "wRCPlus": 116.5
       }
-    ]
+    ],
+    "backtest": {
+      "age": 23,
+      "expected_wRCPlus": 118.0,
+      "actual_wRCPlus": 98.2,
+      "delta": -19.8
+    }
   },
   {
     "name": "Dylan Crews",
@@ -6404,7 +7068,8 @@
         "age": 28,
         "wRCPlus": 84.7
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Dylan Moore",
@@ -6441,7 +7106,13 @@
         "age": 36,
         "wRCPlus": 60.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 31,
+      "expected_wRCPlus": 65.6,
+      "actual_wRCPlus": 105.8,
+      "delta": 40.2
+    }
   },
   {
     "name": "Eddie Rosario",
@@ -6488,7 +7159,13 @@
         "age": 37,
         "wRCPlus": 37.6
       }
-    ]
+    ],
+    "backtest": {
+      "age": 32,
+      "expected_wRCPlus": 92.1,
+      "actual_wRCPlus": 44.3,
+      "delta": -47.8
+    }
   },
   {
     "name": "Edgar Quero",
@@ -6520,7 +7197,8 @@
         "age": 27,
         "wRCPlus": 112.3
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Edmundo Sosa",
@@ -6557,7 +7235,13 @@
         "age": 32,
         "wRCPlus": 77.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 27,
+      "expected_wRCPlus": 105.5,
+      "actual_wRCPlus": 91.1,
+      "delta": -14.5
+    }
   },
   {
     "name": "Edouard Julien",
@@ -6594,7 +7278,13 @@
         "age": 30,
         "wRCPlus": 97.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 25,
+      "expected_wRCPlus": 138.1,
+      "actual_wRCPlus": 78.6,
+      "delta": -59.5
+    }
   },
   {
     "name": "Eduardo Escobar",
@@ -6637,7 +7327,13 @@
         "age": 38,
         "wRCPlus": 47.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 34,
+      "expected_wRCPlus": 91.2,
+      "actual_wRCPlus": 65.6,
+      "delta": -25.6
+    }
   },
   {
     "name": "Edward Olivares",
@@ -6669,7 +7365,8 @@
         "age": 32,
         "wRCPlus": 86.8
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Edwin Encarnaci\u00f3n",
@@ -6689,7 +7386,8 @@
         "age": 38,
         "wRCPlus": 99.9
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Elehuris Montero",
@@ -6721,7 +7419,8 @@
         "age": 29,
         "wRCPlus": 78.9
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Elias D\u00edaz",
@@ -6773,7 +7472,13 @@
         "age": 38,
         "wRCPlus": 40.1
       }
-    ]
+    ],
+    "backtest": {
+      "age": 33,
+      "expected_wRCPlus": 70.6,
+      "actual_wRCPlus": 80.8,
+      "delta": 10.2
+    }
   },
   {
     "name": "Elly De La Cruz",
@@ -6815,7 +7520,13 @@
         "age": 28,
         "wRCPlus": 125.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 23,
+      "expected_wRCPlus": 126.3,
+      "actual_wRCPlus": 108.5,
+      "delta": -17.8
+    }
   },
   {
     "name": "Eloy Jim\u00e9nez",
@@ -6862,7 +7573,13 @@
         "age": 32,
         "wRCPlus": 80.6
       }
-    ]
+    ],
+    "backtest": {
+      "age": 27,
+      "expected_wRCPlus": 118.7,
+      "actual_wRCPlus": 78.3,
+      "delta": -40.4
+    }
   },
   {
     "name": "Elvis Andrus",
@@ -6905,7 +7622,13 @@
         "age": 38,
         "wRCPlus": 47.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 34,
+      "expected_wRCPlus": 81.2,
+      "actual_wRCPlus": 81.8,
+      "delta": 0.6
+    }
   },
   {
     "name": "Emmanuel Rivera",
@@ -6942,7 +7665,13 @@
         "age": 33,
         "wRCPlus": 67.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 95.5,
+      "actual_wRCPlus": 86.3,
+      "delta": -9.2
+    }
   },
   {
     "name": "Enrique Hern\u00e1ndez",
@@ -6994,7 +7723,13 @@
         "age": 37,
         "wRCPlus": 42.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 32,
+      "expected_wRCPlus": 71.7,
+      "actual_wRCPlus": 81.8,
+      "delta": 10.1
+    }
   },
   {
     "name": "Eric Haase",
@@ -7031,7 +7766,13 @@
         "age": 34,
         "wRCPlus": 75.3
       }
-    ]
+    ],
+    "backtest": {
+      "age": 29,
+      "expected_wRCPlus": 96.8,
+      "actual_wRCPlus": 111.4,
+      "delta": 14.6
+    }
   },
   {
     "name": "Eric Hosmer",
@@ -7073,7 +7814,13 @@
         "age": 37,
         "wRCPlus": 54.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 32,
+      "expected_wRCPlus": 92.5,
+      "actual_wRCPlus": 104.1,
+      "delta": 11.6
+    }
   },
   {
     "name": "Eric Sogard",
@@ -7105,7 +7852,8 @@
         "age": 38,
         "wRCPlus": 61.6
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Eric Thames",
@@ -7137,7 +7885,8 @@
         "age": 37,
         "wRCPlus": 63.9
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Eric Wagaman",
@@ -7169,7 +7918,8 @@
         "age": 32,
         "wRCPlus": 69.8
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Ernie Clement",
@@ -7206,7 +7956,13 @@
         "age": 34,
         "wRCPlus": 67.8
       }
-    ]
+    ],
+    "backtest": {
+      "age": 29,
+      "expected_wRCPlus": 91.0,
+      "actual_wRCPlus": 97.6,
+      "delta": 6.6
+    }
   },
   {
     "name": "Esteury Ruiz",
@@ -7238,7 +7994,8 @@
         "age": 29,
         "wRCPlus": 87.2
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Eugenio Su\u00e1rez",
@@ -7295,7 +8052,13 @@
         "age": 38,
         "wRCPlus": 59.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 33,
+      "expected_wRCPlus": 98.9,
+      "actual_wRCPlus": 124.7,
+      "delta": 25.8
+    }
   },
   {
     "name": "Evan Longoria",
@@ -7327,7 +8090,8 @@
         "age": 38,
         "wRCPlus": 53.5
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Ezequiel Duran",
@@ -7359,7 +8123,8 @@
         "age": 29,
         "wRCPlus": 113.6
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Ezequiel Tovar",
@@ -7401,7 +8166,13 @@
         "age": 28,
         "wRCPlus": 97.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 23,
+      "expected_wRCPlus": 99.9,
+      "actual_wRCPlus": 77.8,
+      "delta": -22.1
+    }
   },
   {
     "name": "Fernando Tatis Jr.",
@@ -7453,7 +8224,13 @@
         "age": 31,
         "wRCPlus": 118.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 26,
+      "expected_wRCPlus": 132.1,
+      "actual_wRCPlus": 131.3,
+      "delta": -0.8
+    }
   },
   {
     "name": "Francisco Alvarez",
@@ -7490,7 +8267,8 @@
         "age": 27,
         "wRCPlus": 119.0
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Francisco Lindor",
@@ -7547,7 +8325,13 @@
         "age": 36,
         "wRCPlus": 73.8
       }
-    ]
+    ],
+    "backtest": {
+      "age": 31,
+      "expected_wRCPlus": 120.2,
+      "actual_wRCPlus": 128.8,
+      "delta": 8.6
+    }
   },
   {
     "name": "Franmil Reyes",
@@ -7589,7 +8373,13 @@
         "age": 31,
         "wRCPlus": 88.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 26,
+      "expected_wRCPlus": 127.2,
+      "actual_wRCPlus": 81.1,
+      "delta": -46.2
+    }
   },
   {
     "name": "Freddie Freeman",
@@ -7638,7 +8428,13 @@
         "age": 38,
         "wRCPlus": 86.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 35,
+      "expected_wRCPlus": 119.3,
+      "actual_wRCPlus": 139.4,
+      "delta": 20.0
+    }
   },
   {
     "name": "Freddy Fermin",
@@ -7675,7 +8471,13 @@
         "age": 35,
         "wRCPlus": 52.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 88.4,
+      "actual_wRCPlus": 77.3,
+      "delta": -11.1
+    }
   },
   {
     "name": "Freddy Galvis",
@@ -7712,7 +8514,13 @@
         "age": 36,
         "wRCPlus": 52.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 31,
+      "expected_wRCPlus": 81.8,
+      "actual_wRCPlus": 90.3,
+      "delta": 8.5
+    }
   },
   {
     "name": "Gabriel Arias",
@@ -7749,7 +8557,13 @@
         "age": 30,
         "wRCPlus": 73.3
       }
-    ]
+    ],
+    "backtest": {
+      "age": 25,
+      "expected_wRCPlus": 78.9,
+      "actual_wRCPlus": 77.0,
+      "delta": -1.9
+    }
   },
   {
     "name": "Gabriel Moreno",
@@ -7791,7 +8605,13 @@
         "age": 30,
         "wRCPlus": 108.1
       }
-    ]
+    ],
+    "backtest": {
+      "age": 25,
+      "expected_wRCPlus": 110.2,
+      "actual_wRCPlus": 117.3,
+      "delta": 7.0
+    }
   },
   {
     "name": "Garrett Cooper",
@@ -7833,7 +8653,13 @@
         "age": 37,
         "wRCPlus": 53.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 32,
+      "expected_wRCPlus": 101.6,
+      "actual_wRCPlus": 94.9,
+      "delta": -6.7
+    }
   },
   {
     "name": "Garrett Hampson",
@@ -7870,7 +8696,13 @@
         "age": 31,
         "wRCPlus": 57.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 26,
+      "expected_wRCPlus": 66.9,
+      "actual_wRCPlus": 63.8,
+      "delta": -3.1
+    }
   },
   {
     "name": "Gary S\u00e1nchez",
@@ -7912,7 +8744,13 @@
         "age": 34,
         "wRCPlus": 65.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 29,
+      "expected_wRCPlus": 101.1,
+      "actual_wRCPlus": 88.2,
+      "delta": -12.9
+    }
   },
   {
     "name": "Gavin Lux",
@@ -7959,7 +8797,13 @@
         "age": 32,
         "wRCPlus": 84.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 27,
+      "expected_wRCPlus": 104.0,
+      "actual_wRCPlus": 101.5,
+      "delta": -2.5
+    }
   },
   {
     "name": "Gavin Sheets",
@@ -8006,7 +8850,13 @@
         "age": 34,
         "wRCPlus": 69.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 29,
+      "expected_wRCPlus": 81.2,
+      "actual_wRCPlus": 110.6,
+      "delta": 29.4
+    }
   },
   {
     "name": "George Springer",
@@ -8055,7 +8905,13 @@
         "age": 38,
         "wRCPlus": 84.1
       }
-    ]
+    ],
+    "backtest": {
+      "age": 35,
+      "expected_wRCPlus": 85.5,
+      "actual_wRCPlus": 166.1,
+      "delta": 80.7
+    }
   },
   {
     "name": "Geraldo Perdomo",
@@ -8102,7 +8958,13 @@
         "age": 30,
         "wRCPlus": 118.1
       }
-    ]
+    ],
+    "backtest": {
+      "age": 25,
+      "expected_wRCPlus": 99.1,
+      "actual_wRCPlus": 138.0,
+      "delta": 38.9
+    }
   },
   {
     "name": "Gerardo Parra",
@@ -8134,7 +8996,8 @@
         "age": 37,
         "wRCPlus": 40.8
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Giancarlo Stanton",
@@ -8177,7 +9040,13 @@
         "age": 38,
         "wRCPlus": 61.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 34,
+      "expected_wRCPlus": 88.7,
+      "actual_wRCPlus": 117.2,
+      "delta": 28.5
+    }
   },
   {
     "name": "Gilberto Celestino",
@@ -8209,7 +9078,8 @@
         "age": 28,
         "wRCPlus": 88.9
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Gio Urshela",
@@ -8256,7 +9126,13 @@
         "age": 37,
         "wRCPlus": 47.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 32,
+      "expected_wRCPlus": 99.6,
+      "actual_wRCPlus": 80.4,
+      "delta": -19.2
+    }
   },
   {
     "name": "Gleyber Torres",
@@ -8313,7 +9189,13 @@
         "age": 33,
         "wRCPlus": 84.6
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 111.1,
+      "actual_wRCPlus": 112.8,
+      "delta": 1.6
+    }
   },
   {
     "name": "Greg Garcia",
@@ -8345,7 +9227,8 @@
         "age": 34,
         "wRCPlus": 69.7
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Gregory Polanco",
@@ -8377,7 +9260,8 @@
         "age": 34,
         "wRCPlus": 48.6
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Guillermo Heredia",
@@ -8409,7 +9293,8 @@
         "age": 35,
         "wRCPlus": 51.8
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Gunnar Henderson",
@@ -8451,7 +9336,13 @@
         "age": 29,
         "wRCPlus": 137.3
       }
-    ]
+    ],
+    "backtest": {
+      "age": 24,
+      "expected_wRCPlus": 152.9,
+      "actual_wRCPlus": 119.8,
+      "delta": -33.1
+    }
   },
   {
     "name": "Ha-Seong Kim",
@@ -8493,7 +9384,13 @@
         "age": 33,
         "wRCPlus": 79.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 108.1,
+      "actual_wRCPlus": 100.6,
+      "delta": -7.5
+    }
   },
   {
     "name": "Hanser Alberto",
@@ -8525,7 +9422,8 @@
         "age": 31,
         "wRCPlus": 85.7
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Harold Castro",
@@ -8567,7 +9465,13 @@
         "age": 33,
         "wRCPlus": 67.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 81.6,
+      "actual_wRCPlus": 93.2,
+      "delta": 11.6
+    }
   },
   {
     "name": "Harold Ram\u00edrez",
@@ -8614,7 +9518,13 @@
         "age": 33,
         "wRCPlus": 90.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 108.8,
+      "actual_wRCPlus": 127.0,
+      "delta": 18.3
+    }
   },
   {
     "name": "Harrison Bader",
@@ -8671,7 +9581,13 @@
         "age": 36,
         "wRCPlus": 60.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 31,
+      "expected_wRCPlus": 77.2,
+      "actual_wRCPlus": 121.9,
+      "delta": 44.8
+    }
   },
   {
     "name": "Heliot Ramos",
@@ -8708,7 +9624,13 @@
         "age": 30,
         "wRCPlus": 105.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 25,
+      "expected_wRCPlus": 123.6,
+      "actual_wRCPlus": 106.4,
+      "delta": -17.2
+    }
   },
   {
     "name": "Howie Kendrick",
@@ -8732,7 +9654,8 @@
         "age": 38,
         "wRCPlus": 97.7
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Hunter Dozier",
@@ -8774,7 +9697,13 @@
         "age": 35,
         "wRCPlus": 56.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 84.7,
+      "actual_wRCPlus": 88.4,
+      "delta": 3.7
+    }
   },
   {
     "name": "Hunter Goodman",
@@ -8806,7 +9735,8 @@
         "age": 30,
         "wRCPlus": 111.6
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Hunter Pence",
@@ -8826,7 +9756,8 @@
         "age": 38,
         "wRCPlus": 98.5
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Hunter Renfroe",
@@ -8878,7 +9809,13 @@
         "age": 37,
         "wRCPlus": 51.5
       }
-    ]
+    ],
+    "backtest": {
+      "age": 32,
+      "expected_wRCPlus": 94.2,
+      "actual_wRCPlus": 93.4,
+      "delta": -0.8
+    }
   },
   {
     "name": "Ian Desmond",
@@ -8910,7 +9847,8 @@
         "age": 38,
         "wRCPlus": 46.8
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Ian Happ",
@@ -8962,7 +9900,13 @@
         "age": 35,
         "wRCPlus": 74.5
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 112.7,
+      "actual_wRCPlus": 115.8,
+      "delta": 3.1
+    }
   },
   {
     "name": "Ildemaro Vargas",
@@ -8994,7 +9938,8 @@
         "age": 37,
         "wRCPlus": 39.4
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Isaac Collins",
@@ -9026,7 +9971,8 @@
         "age": 32,
         "wRCPlus": 100.3
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Isaac Paredes",
@@ -9073,7 +10019,13 @@
         "age": 31,
         "wRCPlus": 113.5
       }
-    ]
+    ],
+    "backtest": {
+      "age": 26,
+      "expected_wRCPlus": 125.0,
+      "actual_wRCPlus": 128.0,
+      "delta": 3.0
+    }
   },
   {
     "name": "Isiah Kiner-Falefa",
@@ -9125,7 +10077,13 @@
         "age": 35,
         "wRCPlus": 51.6
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 83.4,
+      "actual_wRCPlus": 74.8,
+      "delta": -8.6
+    }
   },
   {
     "name": "Iv\u00e1n Herrera",
@@ -9157,7 +10115,8 @@
         "age": 30,
         "wRCPlus": 130.4
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "J.D. Davis",
@@ -9199,7 +10158,13 @@
         "age": 35,
         "wRCPlus": 69.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 115.2,
+      "actual_wRCPlus": 103.0,
+      "delta": -12.3
+    }
   },
   {
     "name": "J.D. Martinez",
@@ -9239,7 +10204,13 @@
         "age": 38,
         "wRCPlus": 80.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 36,
+      "expected_wRCPlus": 102.1,
+      "actual_wRCPlus": 107.0,
+      "delta": 4.8
+    }
   },
   {
     "name": "J.P. Crawford",
@@ -9296,7 +10267,13 @@
         "age": 35,
         "wRCPlus": 70.5
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 101.2,
+      "actual_wRCPlus": 113.2,
+      "delta": 12.0
+    }
   },
   {
     "name": "J.T. Realmuto",
@@ -9349,7 +10326,13 @@
         "age": 38,
         "wRCPlus": 54.8
       }
-    ]
+    ],
+    "backtest": {
+      "age": 34,
+      "expected_wRCPlus": 91.8,
+      "actual_wRCPlus": 94.0,
+      "delta": 2.2
+    }
   },
   {
     "name": "JJ Bleday",
@@ -9391,7 +10374,13 @@
         "age": 32,
         "wRCPlus": 85.6
       }
-    ]
+    ],
+    "backtest": {
+      "age": 27,
+      "expected_wRCPlus": 116.9,
+      "actual_wRCPlus": 89.8,
+      "delta": -27.1
+    }
   },
   {
     "name": "JaCoby Jones",
@@ -9423,7 +10412,8 @@
         "age": 32,
         "wRCPlus": 75.7
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Jace Peterson",
@@ -9465,7 +10455,13 @@
         "age": 38,
         "wRCPlus": 41.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 33,
+      "expected_wRCPlus": 86.4,
+      "actual_wRCPlus": 73.6,
+      "delta": -12.8
+    }
   },
   {
     "name": "Jack Suwinski",
@@ -9502,7 +10498,13 @@
         "age": 29,
         "wRCPlus": 111.8
       }
-    ]
+    ],
+    "backtest": {
+      "age": 24,
+      "expected_wRCPlus": 101.8,
+      "actual_wRCPlus": 112.1,
+      "delta": 10.3
+    }
   },
   {
     "name": "Jackie Bradley Jr.",
@@ -9544,7 +10546,13 @@
         "age": 37,
         "wRCPlus": 28.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 32,
+      "expected_wRCPlus": 44.4,
+      "actual_wRCPlus": 56.0,
+      "delta": 11.6
+    }
   },
   {
     "name": "Jackson Merrill",
@@ -9581,7 +10589,8 @@
         "age": 27,
         "wRCPlus": 136.7
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Jacob Stallings",
@@ -9618,7 +10627,13 @@
         "age": 37,
         "wRCPlus": 40.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 32,
+      "expected_wRCPlus": 86.0,
+      "actual_wRCPlus": 66.1,
+      "delta": -19.9
+    }
   },
   {
     "name": "Jacob Wilson",
@@ -9650,7 +10665,8 @@
         "age": 28,
         "wRCPlus": 133.5
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Jacob Young",
@@ -9687,7 +10703,13 @@
         "age": 30,
         "wRCPlus": 71.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 25,
+      "expected_wRCPlus": 87.0,
+      "actual_wRCPlus": 66.5,
+      "delta": -20.6
+    }
   },
   {
     "name": "Jake Bauers",
@@ -9729,7 +10751,13 @@
         "age": 33,
         "wRCPlus": 65.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 71.1,
+      "actual_wRCPlus": 88.1,
+      "delta": 17.0
+    }
   },
   {
     "name": "Jake Burger",
@@ -9771,7 +10799,13 @@
         "age": 34,
         "wRCPlus": 70.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 29,
+      "expected_wRCPlus": 107.6,
+      "actual_wRCPlus": 88.9,
+      "delta": -18.8
+    }
   },
   {
     "name": "Jake Cave",
@@ -9803,7 +10837,8 @@
         "age": 36,
         "wRCPlus": 44.1
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Jake Cronenworth",
@@ -9855,7 +10890,13 @@
         "age": 36,
         "wRCPlus": 62.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 31,
+      "expected_wRCPlus": 96.2,
+      "actual_wRCPlus": 117.5,
+      "delta": 21.3
+    }
   },
   {
     "name": "Jake Fraley",
@@ -9892,7 +10933,13 @@
         "age": 34,
         "wRCPlus": 69.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 29,
+      "expected_wRCPlus": 104.1,
+      "actual_wRCPlus": 95.9,
+      "delta": -8.2
+    }
   },
   {
     "name": "Jake Mangum",
@@ -9924,7 +10971,8 @@
         "age": 34,
         "wRCPlus": 67.6
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Jake Marisnick",
@@ -9956,7 +11004,8 @@
         "age": 33,
         "wRCPlus": 64.3
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Jake McCarthy",
@@ -9998,7 +11047,13 @@
         "age": 31,
         "wRCPlus": 94.1
       }
-    ]
+    ],
+    "backtest": {
+      "age": 26,
+      "expected_wRCPlus": 94.2,
+      "actual_wRCPlus": 110.0,
+      "delta": 15.9
+    }
   },
   {
     "name": "Jake Meyers",
@@ -10040,7 +11095,13 @@
         "age": 34,
         "wRCPlus": 67.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 29,
+      "expected_wRCPlus": 82.6,
+      "actual_wRCPlus": 107.3,
+      "delta": 24.8
+    }
   },
   {
     "name": "Jake Rogers",
@@ -10077,7 +11138,13 @@
         "age": 34,
         "wRCPlus": 55.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 29,
+      "expected_wRCPlus": 94.1,
+      "actual_wRCPlus": 69.6,
+      "delta": -24.5
+    }
   },
   {
     "name": "James McCann",
@@ -10114,7 +11181,13 @@
         "age": 36,
         "wRCPlus": 48.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 31,
+      "expected_wRCPlus": 98.6,
+      "actual_wRCPlus": 78.3,
+      "delta": -20.3
+    }
   },
   {
     "name": "James Outman",
@@ -10146,7 +11219,8 @@
         "age": 31,
         "wRCPlus": 104.7
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "James Wood",
@@ -10183,7 +11257,8 @@
         "age": 27,
         "wRCPlus": 149.8
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Jared Triolo",
@@ -10220,7 +11295,13 @@
         "age": 32,
         "wRCPlus": 67.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 27,
+      "expected_wRCPlus": 73.8,
+      "actual_wRCPlus": 86.3,
+      "delta": 12.6
+    }
   },
   {
     "name": "Jared Walsh",
@@ -10257,7 +11338,13 @@
         "age": 33,
         "wRCPlus": 72.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 124.7,
+      "actual_wRCPlus": 77.4,
+      "delta": -47.4
+    }
   },
   {
     "name": "Jarred Kelenic",
@@ -10299,7 +11386,13 @@
         "age": 29,
         "wRCPlus": 97.8
       }
-    ]
+    ],
+    "backtest": {
+      "age": 24,
+      "expected_wRCPlus": 114.8,
+      "actual_wRCPlus": 86.9,
+      "delta": -27.9
+    }
   },
   {
     "name": "Jarren Duran",
@@ -10341,7 +11434,13 @@
         "age": 33,
         "wRCPlus": 89.3
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 128.2,
+      "actual_wRCPlus": 111.2,
+      "delta": -17.0
+    }
   },
   {
     "name": "Jarrod Dyson",
@@ -10369,7 +11468,8 @@
         "age": 38,
         "wRCPlus": 40.3
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Jason Heyward",
@@ -10411,7 +11511,13 @@
         "age": 38,
         "wRCPlus": 56.3
       }
-    ]
+    ],
+    "backtest": {
+      "age": 33,
+      "expected_wRCPlus": 65.2,
+      "actual_wRCPlus": 118.9,
+      "delta": 53.7
+    }
   },
   {
     "name": "Jason Kipnis",
@@ -10443,7 +11549,8 @@
         "age": 37,
         "wRCPlus": 46.9
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Jasson Dom\u00ednguez",
@@ -10475,7 +11582,8 @@
         "age": 27,
         "wRCPlus": 121.5
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Javier B\u00e1ez",
@@ -10527,7 +11635,13 @@
         "age": 37,
         "wRCPlus": 43.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 32,
+      "expected_wRCPlus": 68.0,
+      "actual_wRCPlus": 86.4,
+      "delta": 18.4
+    }
   },
   {
     "name": "Javier Sanoja",
@@ -10559,7 +11673,8 @@
         "age": 27,
         "wRCPlus": 101.1
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Jay Bruce",
@@ -10591,7 +11706,8 @@
         "age": 37,
         "wRCPlus": 53.6
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Jazz Chisholm Jr.",
@@ -10638,7 +11754,13 @@
         "age": 32,
         "wRCPlus": 97.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 27,
+      "expected_wRCPlus": 110.6,
+      "actual_wRCPlus": 126.1,
+      "delta": 15.5
+    }
   },
   {
     "name": "Jean Segura",
@@ -10685,7 +11807,13 @@
         "age": 38,
         "wRCPlus": 39.1
       }
-    ]
+    ],
+    "backtest": {
+      "age": 33,
+      "expected_wRCPlus": 92.7,
+      "actual_wRCPlus": 51.2,
+      "delta": -41.5
+    }
   },
   {
     "name": "Jed Lowrie",
@@ -10701,7 +11829,8 @@
         "age": 38,
         "wRCPlus": 90.0
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Jeff McNeil",
@@ -10758,7 +11887,13 @@
         "age": 38,
         "wRCPlus": 53.3
       }
-    ]
+    ],
+    "backtest": {
+      "age": 33,
+      "expected_wRCPlus": 90.5,
+      "actual_wRCPlus": 110.6,
+      "delta": 20.2
+    }
   },
   {
     "name": "Jeimer Candelario",
@@ -10810,7 +11945,13 @@
         "age": 35,
         "wRCPlus": 62.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 102.0,
+      "actual_wRCPlus": 88.9,
+      "delta": -13.1
+    }
   },
   {
     "name": "Jeremy Pe\u00f1a",
@@ -10857,7 +11998,13 @@
         "age": 32,
         "wRCPlus": 96.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 27,
+      "expected_wRCPlus": 101.6,
+      "actual_wRCPlus": 135.1,
+      "delta": 33.5
+    }
   },
   {
     "name": "Jesse Winker",
@@ -10904,7 +12051,13 @@
         "age": 35,
         "wRCPlus": 75.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 112.1,
+      "actual_wRCPlus": 117.7,
+      "delta": 5.5
+    }
   },
   {
     "name": "Jes\u00fas Aguilar",
@@ -10946,7 +12099,13 @@
         "age": 37,
         "wRCPlus": 47.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 32,
+      "expected_wRCPlus": 96.4,
+      "actual_wRCPlus": 82.0,
+      "delta": -14.4
+    }
   },
   {
     "name": "Jes\u00fas S\u00e1nchez",
@@ -10993,7 +12152,13 @@
         "age": 32,
         "wRCPlus": 80.6
       }
-    ]
+    ],
+    "backtest": {
+      "age": 27,
+      "expected_wRCPlus": 104.4,
+      "actual_wRCPlus": 93.4,
+      "delta": -11.0
+    }
   },
   {
     "name": "Ji Hwan Bae",
@@ -11025,7 +12190,8 @@
         "age": 28,
         "wRCPlus": 72.2
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Ji Man Choi",
@@ -11067,7 +12233,13 @@
         "age": 36,
         "wRCPlus": 66.8
       }
-    ]
+    ],
+    "backtest": {
+      "age": 31,
+      "expected_wRCPlus": 110.8,
+      "actual_wRCPlus": 114.2,
+      "delta": 3.4
+    }
   },
   {
     "name": "Jo Adell",
@@ -11104,7 +12276,13 @@
         "age": 31,
         "wRCPlus": 95.8
       }
-    ]
+    ],
+    "backtest": {
+      "age": 26,
+      "expected_wRCPlus": 91.9,
+      "actual_wRCPlus": 112.4,
+      "delta": 20.5
+    }
   },
   {
     "name": "Joc Pederson",
@@ -11161,7 +12339,13 @@
         "age": 38,
         "wRCPlus": 54.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 33,
+      "expected_wRCPlus": 119.2,
+      "actual_wRCPlus": 76.3,
+      "delta": -42.9
+    }
   },
   {
     "name": "Joe Panik",
@@ -11193,7 +12377,8 @@
         "age": 33,
         "wRCPlus": 57.4
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Joey Bart",
@@ -11225,7 +12410,8 @@
         "age": 33,
         "wRCPlus": 76.2
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Joey Gallo",
@@ -11267,7 +12453,13 @@
         "age": 34,
         "wRCPlus": 70.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 29,
+      "expected_wRCPlus": 97.3,
+      "actual_wRCPlus": 101.7,
+      "delta": 4.4
+    }
   },
   {
     "name": "Joey Meneses",
@@ -11304,7 +12496,13 @@
         "age": 37,
         "wRCPlus": 43.1
       }
-    ]
+    ],
+    "backtest": {
+      "age": 32,
+      "expected_wRCPlus": 89.5,
+      "actual_wRCPlus": 66.9,
+      "delta": -22.6
+    }
   },
   {
     "name": "Joey Ortiz",
@@ -11341,7 +12539,13 @@
         "age": 31,
         "wRCPlus": 71.6
       }
-    ]
+    ],
+    "backtest": {
+      "age": 26,
+      "expected_wRCPlus": 105.7,
+      "actual_wRCPlus": 66.6,
+      "delta": -39.1
+    }
   },
   {
     "name": "Joey Votto",
@@ -11362,7 +12566,13 @@
         "PA": 376.0
       }
     ],
-    "forecast": []
+    "forecast": [],
+    "backtest": {
+      "age": 38,
+      "expected_wRCPlus": 111.6,
+      "actual_wRCPlus": 92.5,
+      "delta": -19.1
+    }
   },
   {
     "name": "Joey Wendle",
@@ -11404,7 +12614,13 @@
         "age": 38,
         "wRCPlus": 33.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 33,
+      "expected_wRCPlus": 80.8,
+      "actual_wRCPlus": 46.1,
+      "delta": -34.8
+    }
   },
   {
     "name": "Joey Wiemer",
@@ -11436,7 +12652,8 @@
         "age": 29,
         "wRCPlus": 77.8
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Johan Rojas",
@@ -11468,7 +12685,8 @@
         "age": 28,
         "wRCPlus": 73.1
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "John Hicks",
@@ -11500,7 +12718,8 @@
         "age": 34,
         "wRCPlus": 40.4
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Jon Berti",
@@ -11537,7 +12756,13 @@
         "age": 38,
         "wRCPlus": 50.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 33,
+      "expected_wRCPlus": 80.9,
+      "actual_wRCPlus": 101.9,
+      "delta": 21.0
+    }
   },
   {
     "name": "Jon Singleton",
@@ -11569,7 +12794,8 @@
         "age": 37,
         "wRCPlus": 57.0
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Jonah Heim",
@@ -11616,7 +12842,13 @@
         "age": 35,
         "wRCPlus": 48.8
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 80.7,
+      "actual_wRCPlus": 69.1,
+      "delta": -11.6
+    }
   },
   {
     "name": "Jonathan Aranda",
@@ -11648,7 +12880,8 @@
         "age": 32,
         "wRCPlus": 119.8
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Jonathan India",
@@ -11700,7 +12933,13 @@
         "age": 33,
         "wRCPlus": 73.8
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 106.6,
+      "actual_wRCPlus": 88.7,
+      "delta": -17.9
+    }
   },
   {
     "name": "Jonathan Lucroy",
@@ -11732,7 +12971,8 @@
         "age": 38,
         "wRCPlus": 39.5
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Jonathan Schoop",
@@ -11774,7 +13014,13 @@
         "age": 35,
         "wRCPlus": 49.3
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 99.6,
+      "actual_wRCPlus": 57.1,
+      "delta": -42.4
+    }
   },
   {
     "name": "Jonathan Villar",
@@ -11811,7 +13057,13 @@
         "age": 35,
         "wRCPlus": 66.6
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 99.4,
+      "actual_wRCPlus": 103.1,
+      "delta": 3.7
+    }
   },
   {
     "name": "Jonny DeLuca",
@@ -11843,7 +13095,8 @@
         "age": 30,
         "wRCPlus": 73.0
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Jordan Beck",
@@ -11875,7 +13128,8 @@
         "age": 29,
         "wRCPlus": 92.4
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Jordan Walker",
@@ -11912,7 +13166,8 @@
         "age": 28,
         "wRCPlus": 72.6
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Jordan Westburg",
@@ -11949,7 +13204,13 @@
         "age": 31,
         "wRCPlus": 106.8
       }
-    ]
+    ],
+    "backtest": {
+      "age": 26,
+      "expected_wRCPlus": 125.6,
+      "actual_wRCPlus": 114.7,
+      "delta": -10.9
+    }
   },
   {
     "name": "Jorge Alfaro",
@@ -11986,7 +13247,13 @@
         "age": 33,
         "wRCPlus": 57.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 95.5,
+      "actual_wRCPlus": 68.5,
+      "delta": -27.1
+    }
   },
   {
     "name": "Jorge Mateo",
@@ -12023,7 +13290,13 @@
         "age": 33,
         "wRCPlus": 55.3
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 82.0,
+      "actual_wRCPlus": 66.2,
+      "delta": -15.8
+    }
   },
   {
     "name": "Jorge Polanco",
@@ -12080,7 +13353,13 @@
         "age": 36,
         "wRCPlus": 68.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 31,
+      "expected_wRCPlus": 96.7,
+      "actual_wRCPlus": 132.1,
+      "delta": 35.4
+    }
   },
   {
     "name": "Jorge Soler",
@@ -12137,7 +13416,13 @@
         "age": 38,
         "wRCPlus": 52.3
       }
-    ]
+    ],
+    "backtest": {
+      "age": 33,
+      "expected_wRCPlus": 103.8,
+      "actual_wRCPlus": 88.5,
+      "delta": -15.4
+    }
   },
   {
     "name": "Jose Altuve",
@@ -12186,7 +13471,13 @@
         "age": 38,
         "wRCPlus": 75.5
       }
-    ]
+    ],
+    "backtest": {
+      "age": 35,
+      "expected_wRCPlus": 112.8,
+      "actual_wRCPlus": 113.4,
+      "delta": 0.6
+    }
   },
   {
     "name": "Jose Iglesias",
@@ -12225,7 +13516,13 @@
         "age": 38,
         "wRCPlus": 47.1
       }
-    ]
+    ],
+    "backtest": {
+      "age": 35,
+      "expected_wRCPlus": 61.8,
+      "actual_wRCPlus": 73.1,
+      "delta": 11.3
+    }
   },
   {
     "name": "Jose Miranda",
@@ -12262,7 +13559,13 @@
         "age": 31,
         "wRCPlus": 103.6
       }
-    ]
+    ],
+    "backtest": {
+      "age": 26,
+      "expected_wRCPlus": 120.6,
+      "actual_wRCPlus": 113.9,
+      "delta": -6.7
+    }
   },
   {
     "name": "Jose Siri",
@@ -12304,7 +13607,13 @@
         "age": 33,
         "wRCPlus": 64.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 95.7,
+      "actual_wRCPlus": 78.3,
+      "delta": -17.4
+    }
   },
   {
     "name": "Jose Trevino",
@@ -12346,7 +13655,13 @@
         "age": 37,
         "wRCPlus": 36.6
       }
-    ]
+    ],
+    "backtest": {
+      "age": 32,
+      "expected_wRCPlus": 69.1,
+      "actual_wRCPlus": 66.2,
+      "delta": -2.9
+    }
   },
   {
     "name": "Josh Bell",
@@ -12403,7 +13718,13 @@
         "age": 37,
         "wRCPlus": 55.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 32,
+      "expected_wRCPlus": 96.1,
+      "actual_wRCPlus": 107.5,
+      "delta": 11.4
+    }
   },
   {
     "name": "Josh Donaldson",
@@ -12433,7 +13754,13 @@
         "age": 38,
         "wRCPlus": 76.3
       }
-    ]
+    ],
+    "backtest": {
+      "age": 36,
+      "expected_wRCPlus": 104.9,
+      "actual_wRCPlus": 95.6,
+      "delta": -9.3
+    }
   },
   {
     "name": "Josh Harrison",
@@ -12466,7 +13793,13 @@
         "age": 38,
         "wRCPlus": 56.6
       }
-    ]
+    ],
+    "backtest": {
+      "age": 34,
+      "expected_wRCPlus": 94.5,
+      "actual_wRCPlus": 97.4,
+      "delta": 2.9
+    }
   },
   {
     "name": "Josh Jung",
@@ -12503,7 +13836,13 @@
         "age": 32,
         "wRCPlus": 79.1
       }
-    ]
+    ],
+    "backtest": {
+      "age": 27,
+      "expected_wRCPlus": 117.5,
+      "actual_wRCPlus": 91.2,
+      "delta": -26.3
+    }
   },
   {
     "name": "Josh Lowe",
@@ -12545,7 +13884,13 @@
         "age": 32,
         "wRCPlus": 76.8
       }
-    ]
+    ],
+    "backtest": {
+      "age": 27,
+      "expected_wRCPlus": 113.4,
+      "actual_wRCPlus": 79.2,
+      "delta": -34.2
+    }
   },
   {
     "name": "Josh Naylor",
@@ -12592,7 +13937,13 @@
         "age": 33,
         "wRCPlus": 94.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 120.4,
+      "actual_wRCPlus": 127.6,
+      "delta": 7.1
+    }
   },
   {
     "name": "Josh Phegley",
@@ -12624,7 +13975,8 @@
         "age": 36,
         "wRCPlus": 48.8
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Josh Reddick",
@@ -12656,7 +14008,8 @@
         "age": 37,
         "wRCPlus": 50.7
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Josh Rojas",
@@ -12703,7 +14056,13 @@
         "age": 35,
         "wRCPlus": 58.6
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 87.6,
+      "actual_wRCPlus": 91.5,
+      "delta": 3.9
+    }
   },
   {
     "name": "Josh Smith",
@@ -12740,7 +14099,13 @@
         "age": 32,
         "wRCPlus": 86.3
       }
-    ]
+    ],
+    "backtest": {
+      "age": 27,
+      "expected_wRCPlus": 114.7,
+      "actual_wRCPlus": 100.3,
+      "delta": -14.4
+    }
   },
   {
     "name": "Josh VanMeter",
@@ -12772,7 +14137,8 @@
         "age": 31,
         "wRCPlus": 69.1
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Jos\u00e9 A. Mart\u00ednez",
@@ -12804,7 +14170,8 @@
         "age": 35,
         "wRCPlus": 66.2
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Jos\u00e9 Abreu",
@@ -12839,7 +14206,13 @@
         "age": 38,
         "wRCPlus": 74.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 36,
+      "expected_wRCPlus": 108.2,
+      "actual_wRCPlus": 86.1,
+      "delta": -22.1
+    }
   },
   {
     "name": "Jos\u00e9 Caballero",
@@ -12876,7 +14249,13 @@
         "age": 33,
         "wRCPlus": 69.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 81.9,
+      "actual_wRCPlus": 97.0,
+      "delta": 15.1
+    }
   },
   {
     "name": "Jos\u00e9 Peraza",
@@ -12908,7 +14287,8 @@
         "age": 30,
         "wRCPlus": 56.4
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Jos\u00e9 Ram\u00edrez",
@@ -12965,7 +14345,13 @@
         "age": 37,
         "wRCPlus": 70.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 32,
+      "expected_wRCPlus": 122.5,
+      "actual_wRCPlus": 133.5,
+      "delta": 11.0
+    }
   },
   {
     "name": "Juan Lagares",
@@ -12997,7 +14383,8 @@
         "age": 37,
         "wRCPlus": 38.4
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Juan Soto",
@@ -13054,7 +14441,13 @@
         "age": 31,
         "wRCPlus": 147.8
       }
-    ]
+    ],
+    "backtest": {
+      "age": 26,
+      "expected_wRCPlus": 174.1,
+      "actual_wRCPlus": 155.9,
+      "delta": -18.1
+    }
   },
   {
     "name": "Julio Rodr\u00edguez",
@@ -13101,7 +14494,13 @@
         "age": 29,
         "wRCPlus": 129.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 24,
+      "expected_wRCPlus": 128.9,
+      "actual_wRCPlus": 126.0,
+      "delta": -3.0
+    }
   },
   {
     "name": "Jung Hoo Lee",
@@ -13133,7 +14532,8 @@
         "age": 31,
         "wRCPlus": 96.2
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Jurickson Profar",
@@ -13190,7 +14590,13 @@
         "age": 37,
         "wRCPlus": 62.3
       }
-    ]
+    ],
+    "backtest": {
+      "age": 32,
+      "expected_wRCPlus": 107.5,
+      "actual_wRCPlus": 122.2,
+      "delta": 14.7
+    }
   },
   {
     "name": "Justin Smoak",
@@ -13222,7 +14628,8 @@
         "age": 37,
         "wRCPlus": 55.7
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Justin Turner",
@@ -13253,7 +14660,8 @@
         "PA": 539.0
       }
     ],
-    "forecast": []
+    "forecast": [],
+    "backtest": null
   },
   {
     "name": "Justin Upton",
@@ -13285,7 +14693,8 @@
         "age": 38,
         "wRCPlus": 48.4
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Ke'Bryan Hayes",
@@ -13337,7 +14746,13 @@
         "age": 33,
         "wRCPlus": 53.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 78.8,
+      "actual_wRCPlus": 64.9,
+      "delta": -13.9
+    }
   },
   {
     "name": "Keibert Ruiz",
@@ -13379,7 +14794,13 @@
         "age": 30,
         "wRCPlus": 77.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 25,
+      "expected_wRCPlus": 97.1,
+      "actual_wRCPlus": 70.1,
+      "delta": -27.0
+    }
   },
   {
     "name": "Kerry Carpenter",
@@ -13416,7 +14837,13 @@
         "age": 32,
         "wRCPlus": 95.8
       }
-    ]
+    ],
+    "backtest": {
+      "age": 27,
+      "expected_wRCPlus": 125.1,
+      "actual_wRCPlus": 114.7,
+      "delta": -10.4
+    }
   },
   {
     "name": "Keston Hiura",
@@ -13448,7 +14875,8 @@
         "age": 27,
         "wRCPlus": 163.4
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Ketel Marte",
@@ -13505,7 +14933,13 @@
         "age": 36,
         "wRCPlus": 80.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 31,
+      "expected_wRCPlus": 128.6,
+      "actual_wRCPlus": 145.3,
+      "delta": 16.7
+    }
   },
   {
     "name": "Kevin Kiermaier",
@@ -13547,7 +14981,13 @@
         "age": 38,
         "wRCPlus": 52.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 33,
+      "expected_wRCPlus": 80.1,
+      "actual_wRCPlus": 103.4,
+      "delta": 23.3
+    }
   },
   {
     "name": "Kevin Newman",
@@ -13594,7 +15034,13 @@
         "age": 35,
         "wRCPlus": 54.1
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 71.0,
+      "actual_wRCPlus": 89.3,
+      "delta": 18.3
+    }
   },
   {
     "name": "Kevin Pillar",
@@ -13628,7 +15074,13 @@
         "age": 38,
         "wRCPlus": 56.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 35,
+      "expected_wRCPlus": 61.5,
+      "actual_wRCPlus": 88.6,
+      "delta": 27.1
+    }
   },
   {
     "name": "Khris Davis",
@@ -13660,7 +15112,8 @@
         "age": 36,
         "wRCPlus": 47.9
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Kody Clemens",
@@ -13692,7 +15145,8 @@
         "age": 34,
         "wRCPlus": 67.3
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Kole Calhoun",
@@ -13725,7 +15179,13 @@
         "age": 38,
         "wRCPlus": 40.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 34,
+      "expected_wRCPlus": 80.8,
+      "actual_wRCPlus": 66.4,
+      "delta": -14.3
+    }
   },
   {
     "name": "Kolten Wong",
@@ -13767,7 +15227,13 @@
         "age": 36,
         "wRCPlus": 65.8
       }
-    ]
+    ],
+    "backtest": {
+      "age": 31,
+      "expected_wRCPlus": 103.0,
+      "actual_wRCPlus": 116.5,
+      "delta": 13.6
+    }
   },
   {
     "name": "Korey Lee",
@@ -13799,7 +15265,8 @@
         "age": 30,
         "wRCPlus": 61.3
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Kris Bryant",
@@ -13841,7 +15308,13 @@
         "age": 36,
         "wRCPlus": 52.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 31,
+      "expected_wRCPlus": 114.7,
+      "actual_wRCPlus": 74.2,
+      "delta": -40.5
+    }
   },
   {
     "name": "Kurt Suzuki",
@@ -13865,7 +15338,8 @@
         "age": 38,
         "wRCPlus": 70.1
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Kyle Farmer",
@@ -13908,7 +15382,13 @@
         "age": 38,
         "wRCPlus": 40.8
       }
-    ]
+    ],
+    "backtest": {
+      "age": 34,
+      "expected_wRCPlus": 75.6,
+      "actual_wRCPlus": 65.2,
+      "delta": -10.4
+    }
   },
   {
     "name": "Kyle Higashioka",
@@ -13932,7 +15412,8 @@
         "age": 38,
         "wRCPlus": 62.0
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Kyle Isbel",
@@ -13974,7 +15455,13 @@
         "age": 33,
         "wRCPlus": 60.3
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 80.2,
+      "actual_wRCPlus": 79.2,
+      "delta": -1.0
+    }
   },
   {
     "name": "Kyle Manzardo",
@@ -14006,7 +15493,8 @@
         "age": 29,
         "wRCPlus": 115.0
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Kyle Schwarber",
@@ -14063,7 +15551,13 @@
         "age": 37,
         "wRCPlus": 74.5
       }
-    ]
+    ],
+    "backtest": {
+      "age": 32,
+      "expected_wRCPlus": 117.0,
+      "actual_wRCPlus": 152.1,
+      "delta": 35.0
+    }
   },
   {
     "name": "Kyle Seager",
@@ -14100,7 +15594,13 @@
         "age": 38,
         "wRCPlus": 52.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 33,
+      "expected_wRCPlus": 94.3,
+      "actual_wRCPlus": 98.5,
+      "delta": 4.2
+    }
   },
   {
     "name": "Kyle Stowers",
@@ -14132,7 +15632,8 @@
         "age": 32,
         "wRCPlus": 122.0
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Kyle Tucker",
@@ -14184,7 +15685,13 @@
         "age": 33,
         "wRCPlus": 108.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 154.2,
+      "actual_wRCPlus": 136.0,
+      "delta": -18.2
+    }
   },
   {
     "name": "LaMonte Wade Jr.",
@@ -14226,7 +15733,13 @@
         "age": 35,
         "wRCPlus": 76.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 114.2,
+      "actual_wRCPlus": 118.9,
+      "delta": 4.7
+    }
   },
   {
     "name": "Lane Thomas",
@@ -14268,7 +15781,13 @@
         "age": 33,
         "wRCPlus": 77.3
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 105.5,
+      "actual_wRCPlus": 98.8,
+      "delta": -6.7
+    }
   },
   {
     "name": "Lars Nootbaar",
@@ -14315,7 +15834,13 @@
         "age": 32,
         "wRCPlus": 86.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 27,
+      "expected_wRCPlus": 119.9,
+      "actual_wRCPlus": 96.1,
+      "delta": -23.8
+    }
   },
   {
     "name": "Lawrence Butler",
@@ -14352,7 +15877,13 @@
         "age": 29,
         "wRCPlus": 108.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 24,
+      "expected_wRCPlus": 135.9,
+      "actual_wRCPlus": 95.5,
+      "delta": -40.4
+    }
   },
   {
     "name": "Lenyn Sosa",
@@ -14389,7 +15920,13 @@
         "age": 30,
         "wRCPlus": 90.5
       }
-    ]
+    ],
+    "backtest": {
+      "age": 25,
+      "expected_wRCPlus": 83.1,
+      "actual_wRCPlus": 99.6,
+      "delta": 16.5
+    }
   },
   {
     "name": "Leody Taveras",
@@ -14431,7 +15968,13 @@
         "age": 30,
         "wRCPlus": 87.1
       }
-    ]
+    ],
+    "backtest": {
+      "age": 25,
+      "expected_wRCPlus": 103.4,
+      "actual_wRCPlus": 83.9,
+      "delta": -19.5
+    }
   },
   {
     "name": "Leury Garc\u00eda",
@@ -14473,7 +16016,13 @@
         "age": 36,
         "wRCPlus": 37.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 31,
+      "expected_wRCPlus": 87.5,
+      "actual_wRCPlus": 38.4,
+      "delta": -49.1
+    }
   },
   {
     "name": "Liam Hicks",
@@ -14505,7 +16054,8 @@
         "age": 31,
         "wRCPlus": 88.4
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Logan Forsythe",
@@ -14537,7 +16087,8 @@
         "age": 37,
         "wRCPlus": 41.1
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Logan O'Hoppe",
@@ -14574,7 +16125,13 @@
         "age": 30,
         "wRCPlus": 79.6
       }
-    ]
+    ],
+    "backtest": {
+      "age": 25,
+      "expected_wRCPlus": 104.8,
+      "actual_wRCPlus": 71.7,
+      "delta": -33.1
+    }
   },
   {
     "name": "Lorenzo Cain",
@@ -14606,7 +16163,8 @@
         "age": 38,
         "wRCPlus": 44.2
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Lourdes Gurriel Jr.",
@@ -14663,7 +16221,13 @@
         "age": 36,
         "wRCPlus": 57.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 31,
+      "expected_wRCPlus": 100.9,
+      "actual_wRCPlus": 94.6,
+      "delta": -6.2
+    }
   },
   {
     "name": "Luis Arraez",
@@ -14720,7 +16284,13 @@
         "age": 33,
         "wRCPlus": 83.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 118.0,
+      "actual_wRCPlus": 104.0,
+      "delta": -13.9
+    }
   },
   {
     "name": "Luis Garc\u00eda Jr.",
@@ -14767,7 +16337,13 @@
         "age": 30,
         "wRCPlus": 93.1
       }
-    ]
+    ],
+    "backtest": {
+      "age": 25,
+      "expected_wRCPlus": 106.7,
+      "actual_wRCPlus": 91.1,
+      "delta": -15.6
+    }
   },
   {
     "name": "Luis Gonz\u00e1lez",
@@ -14799,7 +16375,8 @@
         "age": 31,
         "wRCPlus": 85.8
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Luis Guillorme",
@@ -14831,7 +16408,8 @@
         "age": 32,
         "wRCPlus": 85.0
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Luis Rengifo",
@@ -14883,7 +16461,13 @@
         "age": 33,
         "wRCPlus": 67.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 113.8,
+      "actual_wRCPlus": 72.7,
+      "delta": -41.2
+    }
   },
   {
     "name": "Luis Robert Jr.",
@@ -14930,7 +16514,13 @@
         "age": 32,
         "wRCPlus": 77.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 27,
+      "expected_wRCPlus": 106.9,
+      "actual_wRCPlus": 83.5,
+      "delta": -23.4
+    }
   },
   {
     "name": "Luis Torrens",
@@ -14962,7 +16552,8 @@
         "age": 30,
         "wRCPlus": 95.7
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Luis Ur\u00edas",
@@ -15004,7 +16595,13 @@
         "age": 33,
         "wRCPlus": 68.6
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 114.6,
+      "actual_wRCPlus": 83.6,
+      "delta": -31.0
+    }
   },
   {
     "name": "Luke Raley",
@@ -15041,7 +16638,13 @@
         "age": 34,
         "wRCPlus": 90.6
       }
-    ]
+    ],
+    "backtest": {
+      "age": 29,
+      "expected_wRCPlus": 125.2,
+      "actual_wRCPlus": 129.2,
+      "delta": 4.0
+    }
   },
   {
     "name": "Luke Voit",
@@ -15078,7 +16681,13 @@
         "age": 36,
         "wRCPlus": 61.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 31,
+      "expected_wRCPlus": 111.9,
+      "actual_wRCPlus": 102.6,
+      "delta": -9.4
+    }
   },
   {
     "name": "MJ Melendez",
@@ -15120,7 +16729,13 @@
         "age": 30,
         "wRCPlus": 87.6
       }
-    ]
+    ],
+    "backtest": {
+      "age": 25,
+      "expected_wRCPlus": 98.6,
+      "actual_wRCPlus": 86.3,
+      "delta": -12.3
+    }
   },
   {
     "name": "Maikel Franco",
@@ -15162,7 +16777,13 @@
         "age": 34,
         "wRCPlus": 45.5
       }
-    ]
+    ],
+    "backtest": {
+      "age": 29,
+      "expected_wRCPlus": 61.6,
+      "actual_wRCPlus": 65.9,
+      "delta": 4.4
+    }
   },
   {
     "name": "Maikel Garcia",
@@ -15204,7 +16825,13 @@
         "age": 30,
         "wRCPlus": 98.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 25,
+      "expected_wRCPlus": 78.5,
+      "actual_wRCPlus": 120.5,
+      "delta": 42.0
+    }
   },
   {
     "name": "Mallex Smith",
@@ -15236,7 +16863,8 @@
         "age": 31,
         "wRCPlus": 66.8
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Manny Machado",
@@ -15293,7 +16921,13 @@
         "age": 37,
         "wRCPlus": 64.6
       }
-    ]
+    ],
+    "backtest": {
+      "age": 32,
+      "expected_wRCPlus": 111.2,
+      "actual_wRCPlus": 123.0,
+      "delta": 11.8
+    }
   },
   {
     "name": "Manuel Margot",
@@ -15345,7 +16979,13 @@
         "age": 34,
         "wRCPlus": 60.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 29,
+      "expected_wRCPlus": 92.7,
+      "actual_wRCPlus": 77.5,
+      "delta": -15.2
+    }
   },
   {
     "name": "Marcell Ozuna",
@@ -15393,7 +17033,13 @@
         "age": 38,
         "wRCPlus": 70.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 34,
+      "expected_wRCPlus": 124.9,
+      "actual_wRCPlus": 114.0,
+      "delta": -10.9
+    }
   },
   {
     "name": "Marcus Semien",
@@ -15446,7 +17092,13 @@
         "age": 38,
         "wRCPlus": 54.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 34,
+      "expected_wRCPlus": 94.5,
+      "actual_wRCPlus": 89.0,
+      "delta": -5.5
+    }
   },
   {
     "name": "Mark Canha",
@@ -15490,7 +17142,13 @@
         "age": 38,
         "wRCPlus": 65.8
       }
-    ]
+    ],
+    "backtest": {
+      "age": 35,
+      "expected_wRCPlus": 96.3,
+      "actual_wRCPlus": 101.4,
+      "delta": 5.1
+    }
   },
   {
     "name": "Mark Vientos",
@@ -15527,7 +17185,13 @@
         "age": 30,
         "wRCPlus": 104.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 25,
+      "expected_wRCPlus": 136.5,
+      "actual_wRCPlus": 96.8,
+      "delta": -39.7
+    }
   },
   {
     "name": "Mart\u00edn Maldonado",
@@ -15562,7 +17226,13 @@
         "age": 38,
         "wRCPlus": 47.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 36,
+      "expected_wRCPlus": 55.6,
+      "actual_wRCPlus": 66.0,
+      "delta": 10.4
+    }
   },
   {
     "name": "Marwin Gonzalez",
@@ -15599,7 +17269,13 @@
         "age": 37,
         "wRCPlus": 35.1
       }
-    ]
+    ],
+    "backtest": {
+      "age": 32,
+      "expected_wRCPlus": 83.4,
+      "actual_wRCPlus": 56.5,
+      "delta": -26.9
+    }
   },
   {
     "name": "Masataka Yoshida",
@@ -15636,7 +17312,13 @@
         "age": 35,
         "wRCPlus": 73.3
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 106.7,
+      "actual_wRCPlus": 116.4,
+      "delta": 9.7
+    }
   },
   {
     "name": "Masyn Winn",
@@ -15673,7 +17355,13 @@
         "age": 28,
         "wRCPlus": 108.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 23,
+      "expected_wRCPlus": 109.9,
+      "actual_wRCPlus": 91.4,
+      "delta": -18.5
+    }
   },
   {
     "name": "Matt Adams",
@@ -15705,7 +17393,8 @@
         "age": 35,
         "wRCPlus": 55.5
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Matt Carpenter",
@@ -15737,7 +17426,8 @@
         "age": 38,
         "wRCPlus": 51.4
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Matt Chapman",
@@ -15794,7 +17484,13 @@
         "age": 37,
         "wRCPlus": 61.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 32,
+      "expected_wRCPlus": 105.2,
+      "actual_wRCPlus": 118.3,
+      "delta": 13.1
+    }
   },
   {
     "name": "Matt Duffy",
@@ -15826,7 +17522,8 @@
         "age": 35,
         "wRCPlus": 68.1
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Matt McLain",
@@ -15863,7 +17560,13 @@
         "age": 30,
         "wRCPlus": 81.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 25,
+      "expected_wRCPlus": 138.6,
+      "actual_wRCPlus": 77.0,
+      "delta": -61.7
+    }
   },
   {
     "name": "Matt Olson",
@@ -15920,7 +17623,13 @@
         "age": 36,
         "wRCPlus": 76.6
       }
-    ]
+    ],
+    "backtest": {
+      "age": 31,
+      "expected_wRCPlus": 122.6,
+      "actual_wRCPlus": 136.1,
+      "delta": 13.4
+    }
   },
   {
     "name": "Matt Shaw",
@@ -15952,7 +17661,8 @@
         "age": 28,
         "wRCPlus": 102.2
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Matt Thaiss",
@@ -15984,7 +17694,8 @@
         "age": 33,
         "wRCPlus": 64.0
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Matt Vierling",
@@ -16026,7 +17737,13 @@
         "age": 32,
         "wRCPlus": 84.5
       }
-    ]
+    ],
+    "backtest": {
+      "age": 27,
+      "expected_wRCPlus": 96.6,
+      "actual_wRCPlus": 107.0,
+      "delta": 10.4
+    }
   },
   {
     "name": "Matt Wallner",
@@ -16058,7 +17775,8 @@
         "age": 32,
         "wRCPlus": 93.5
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Mauricio Dub\u00f3n",
@@ -16100,7 +17818,13 @@
         "age": 35,
         "wRCPlus": 53.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 85.2,
+      "actual_wRCPlus": 79.9,
+      "delta": -5.2
+    }
   },
   {
     "name": "Max Kepler",
@@ -16157,7 +17881,13 @@
         "age": 37,
         "wRCPlus": 49.8
       }
-    ]
+    ],
+    "backtest": {
+      "age": 32,
+      "expected_wRCPlus": 92.0,
+      "actual_wRCPlus": 89.8,
+      "delta": -2.2
+    }
   },
   {
     "name": "Max Muncy",
@@ -16205,7 +17935,13 @@
         "age": 38,
         "wRCPlus": 70.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 34,
+      "expected_wRCPlus": 93.4,
+      "actual_wRCPlus": 136.9,
+      "delta": 43.4
+    }
   },
   {
     "name": "Max Schuemann",
@@ -16237,7 +17973,8 @@
         "age": 32,
         "wRCPlus": 70.0
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Max Stassi",
@@ -16274,7 +18011,13 @@
         "age": 36,
         "wRCPlus": 44.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 31,
+      "expected_wRCPlus": 100.8,
+      "actual_wRCPlus": 63.2,
+      "delta": -37.6
+    }
   },
   {
     "name": "Melky Cabrera",
@@ -16302,7 +18045,8 @@
         "age": 38,
         "wRCPlus": 49.5
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Michael A. Taylor",
@@ -16350,7 +18094,13 @@
         "age": 38,
         "wRCPlus": 38.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 34,
+      "expected_wRCPlus": 59.6,
+      "actual_wRCPlus": 70.5,
+      "delta": 10.9
+    }
   },
   {
     "name": "Michael Brantley",
@@ -16383,7 +18133,13 @@
         "age": 38,
         "wRCPlus": 69.8
       }
-    ]
+    ],
+    "backtest": {
+      "age": 34,
+      "expected_wRCPlus": 109.8,
+      "actual_wRCPlus": 121.4,
+      "delta": 11.6
+    }
   },
   {
     "name": "Michael Busch",
@@ -16420,7 +18176,13 @@
         "age": 32,
         "wRCPlus": 109.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 27,
+      "expected_wRCPlus": 120.0,
+      "actual_wRCPlus": 139.9,
+      "delta": 19.9
+    }
   },
   {
     "name": "Michael Chavis",
@@ -16457,7 +18219,13 @@
         "age": 31,
         "wRCPlus": 72.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 26,
+      "expected_wRCPlus": 104.5,
+      "actual_wRCPlus": 77.7,
+      "delta": -26.8
+    }
   },
   {
     "name": "Michael Conforto",
@@ -16509,7 +18277,13 @@
         "age": 37,
         "wRCPlus": 49.3
       }
-    ]
+    ],
+    "backtest": {
+      "age": 32,
+      "expected_wRCPlus": 98.0,
+      "actual_wRCPlus": 83.0,
+      "delta": -15.0
+    }
   },
   {
     "name": "Michael Harris II",
@@ -16556,7 +18330,13 @@
         "age": 29,
         "wRCPlus": 95.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 24,
+      "expected_wRCPlus": 112.4,
+      "actual_wRCPlus": 82.9,
+      "delta": -29.5
+    }
   },
   {
     "name": "Michael Massey",
@@ -16593,7 +18373,13 @@
         "age": 31,
         "wRCPlus": 82.8
       }
-    ]
+    ],
+    "backtest": {
+      "age": 26,
+      "expected_wRCPlus": 74.7,
+      "actual_wRCPlus": 103.6,
+      "delta": 28.9
+    }
   },
   {
     "name": "Michael Siani",
@@ -16625,7 +18411,8 @@
         "age": 29,
         "wRCPlus": 65.7
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Michael Toglia",
@@ -16662,7 +18449,13 @@
         "age": 31,
         "wRCPlus": 64.5
       }
-    ]
+    ],
+    "backtest": {
+      "age": 26,
+      "expected_wRCPlus": 98.6,
+      "actual_wRCPlus": 53.6,
+      "delta": -45.0
+    }
   },
   {
     "name": "Mickey Moniak",
@@ -16704,7 +18497,13 @@
         "age": 32,
         "wRCPlus": 84.6
       }
-    ]
+    ],
+    "backtest": {
+      "age": 27,
+      "expected_wRCPlus": 92.0,
+      "actual_wRCPlus": 110.1,
+      "delta": 18.1
+    }
   },
   {
     "name": "Miguel Amaya",
@@ -16736,7 +18535,8 @@
         "age": 30,
         "wRCPlus": 77.5
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Miguel Andujar",
@@ -16773,7 +18573,13 @@
         "age": 35,
         "wRCPlus": 75.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 98.6,
+      "actual_wRCPlus": 124.6,
+      "delta": 26.1
+    }
   },
   {
     "name": "Miguel Cabrera",
@@ -16799,7 +18605,8 @@
         "PA": 370.0
       }
     ],
-    "forecast": []
+    "forecast": [],
+    "backtest": null
   },
   {
     "name": "Miguel Rojas",
@@ -16844,7 +18651,13 @@
         "age": 38,
         "wRCPlus": 65.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 36,
+      "expected_wRCPlus": 70.9,
+      "actual_wRCPlus": 99.9,
+      "delta": 29.0
+    }
   },
   {
     "name": "Miguel San\u00f3",
@@ -16881,7 +18694,13 @@
         "age": 33,
         "wRCPlus": 88.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 139.2,
+      "actual_wRCPlus": 111.7,
+      "delta": -27.5
+    }
   },
   {
     "name": "Miguel Vargas",
@@ -16918,7 +18737,13 @@
         "age": 30,
         "wRCPlus": 94.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 25,
+      "expected_wRCPlus": 90.0,
+      "actual_wRCPlus": 100.9,
+      "delta": 10.8
+    }
   },
   {
     "name": "Mike Moustakas",
@@ -16951,7 +18776,13 @@
         "age": 38,
         "wRCPlus": 46.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 34,
+      "expected_wRCPlus": 83.5,
+      "actual_wRCPlus": 78.0,
+      "delta": -5.5
+    }
   },
   {
     "name": "Mike Tauchman",
@@ -16989,7 +18820,13 @@
         "age": 38,
         "wRCPlus": 63.1
       }
-    ]
+    ],
+    "backtest": {
+      "age": 34,
+      "expected_wRCPlus": 96.2,
+      "actual_wRCPlus": 115.2,
+      "delta": 19.0
+    }
   },
   {
     "name": "Mike Trout",
@@ -17036,7 +18873,13 @@
         "age": 38,
         "wRCPlus": 64.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 33,
+      "expected_wRCPlus": 126.8,
+      "actual_wRCPlus": 119.8,
+      "delta": -7.1
+    }
   },
   {
     "name": "Mike Yastrzemski",
@@ -17089,7 +18932,13 @@
         "age": 38,
         "wRCPlus": 58.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 34,
+      "expected_wRCPlus": 90.7,
+      "actual_wRCPlus": 105.9,
+      "delta": 15.2
+    }
   },
   {
     "name": "Mike Zunino",
@@ -17121,7 +18970,8 @@
         "age": 35,
         "wRCPlus": 86.8
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Mitch Garver",
@@ -17163,7 +19013,13 @@
         "age": 38,
         "wRCPlus": 53.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 33,
+      "expected_wRCPlus": 128.9,
+      "actual_wRCPlus": 88.5,
+      "delta": -40.4
+    }
   },
   {
     "name": "Mitch Haniger",
@@ -17200,7 +19056,13 @@
         "age": 38,
         "wRCPlus": 46.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 33,
+      "expected_wRCPlus": 98.0,
+      "actual_wRCPlus": 85.5,
+      "delta": -12.6
+    }
   },
   {
     "name": "Mitch Moreland",
@@ -17232,7 +19094,8 @@
         "age": 38,
         "wRCPlus": 59.8
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Mookie Betts",
@@ -17289,7 +19152,13 @@
         "age": 37,
         "wRCPlus": 64.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 32,
+      "expected_wRCPlus": 132.7,
+      "actual_wRCPlus": 103.8,
+      "delta": -28.8
+    }
   },
   {
     "name": "Myles Straw",
@@ -17331,7 +19200,13 @@
         "age": 33,
         "wRCPlus": 54.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 76.6,
+      "actual_wRCPlus": 68.2,
+      "delta": -8.4
+    }
   },
   {
     "name": "Nathan Lukes",
@@ -17363,7 +19238,8 @@
         "age": 35,
         "wRCPlus": 67.5
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Nathaniel Lowe",
@@ -17415,7 +19291,13 @@
         "age": 34,
         "wRCPlus": 74.5
       }
-    ]
+    ],
+    "backtest": {
+      "age": 29,
+      "expected_wRCPlus": 119.7,
+      "actual_wRCPlus": 91.3,
+      "delta": -28.4
+    }
   },
   {
     "name": "Neil Walker",
@@ -17447,7 +19329,8 @@
         "age": 38,
         "wRCPlus": 53.0
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Nelson Cruz",
@@ -17468,7 +19351,8 @@
         "PA": 507.0
       }
     ],
-    "forecast": []
+    "forecast": [],
+    "backtest": null
   },
   {
     "name": "Nick Ahmed",
@@ -17505,7 +19389,13 @@
         "age": 36,
         "wRCPlus": 41.3
       }
-    ]
+    ],
+    "backtest": {
+      "age": 31,
+      "expected_wRCPlus": 83.3,
+      "actual_wRCPlus": 65.5,
+      "delta": -17.8
+    }
   },
   {
     "name": "Nick Allen",
@@ -17547,7 +19437,13 @@
         "age": 31,
         "wRCPlus": 48.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 26,
+      "expected_wRCPlus": 59.2,
+      "actual_wRCPlus": 53.1,
+      "delta": -6.1
+    }
   },
   {
     "name": "Nick Castellanos",
@@ -17604,7 +19500,13 @@
         "age": 38,
         "wRCPlus": 48.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 33,
+      "expected_wRCPlus": 92.9,
+      "actual_wRCPlus": 89.7,
+      "delta": -3.1
+    }
   },
   {
     "name": "Nick Fortes",
@@ -17641,7 +19543,13 @@
         "age": 32,
         "wRCPlus": 46.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 27,
+      "expected_wRCPlus": 53.0,
+      "actual_wRCPlus": 58.0,
+      "delta": 5.0
+    }
   },
   {
     "name": "Nick Gonzales",
@@ -17678,7 +19586,13 @@
         "age": 31,
         "wRCPlus": 77.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 26,
+      "expected_wRCPlus": 95.2,
+      "actual_wRCPlus": 81.6,
+      "delta": -13.6
+    }
   },
   {
     "name": "Nick Gordon",
@@ -17710,7 +19624,8 @@
         "age": 31,
         "wRCPlus": 98.8
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Nick Kurtz",
@@ -17742,7 +19657,8 @@
         "age": 27,
         "wRCPlus": 200.4
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Nick Markakis",
@@ -17766,7 +19682,8 @@
         "age": 38,
         "wRCPlus": 67.6
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Nick Pratto",
@@ -17798,7 +19715,8 @@
         "age": 29,
         "wRCPlus": 82.2
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Nick Senzel",
@@ -17840,7 +19758,13 @@
         "age": 33,
         "wRCPlus": 58.3
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 68.7,
+      "actual_wRCPlus": 82.9,
+      "delta": 14.2
+    }
   },
   {
     "name": "Nick Solak",
@@ -17872,7 +19796,8 @@
         "age": 31,
         "wRCPlus": 79.3
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Nicky Lopez",
@@ -17919,7 +19844,13 @@
         "age": 34,
         "wRCPlus": 53.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 29,
+      "expected_wRCPlus": 70.3,
+      "actual_wRCPlus": 77.3,
+      "delta": 6.9
+    }
   },
   {
     "name": "Nico Hoerner",
@@ -17966,7 +19897,13 @@
         "age": 33,
         "wRCPlus": 80.6
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 103.0,
+      "actual_wRCPlus": 109.4,
+      "delta": 6.4
+    }
   },
   {
     "name": "Niko Goodrum",
@@ -18003,7 +19940,13 @@
         "age": 34,
         "wRCPlus": 58.5
       }
-    ]
+    ],
+    "backtest": {
+      "age": 29,
+      "expected_wRCPlus": 91.2,
+      "actual_wRCPlus": 79.4,
+      "delta": -11.8
+    }
   },
   {
     "name": "Noelvi Marte",
@@ -18035,7 +19978,8 @@
         "age": 28,
         "wRCPlus": 110.8
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Nolan Arenado",
@@ -18088,7 +20032,13 @@
         "age": 38,
         "wRCPlus": 52.8
       }
-    ]
+    ],
+    "backtest": {
+      "age": 34,
+      "expected_wRCPlus": 94.0,
+      "actual_wRCPlus": 84.1,
+      "delta": -9.9
+    }
   },
   {
     "name": "Nolan Gorman",
@@ -18135,7 +20085,13 @@
         "age": 30,
         "wRCPlus": 91.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 25,
+      "expected_wRCPlus": 105.3,
+      "actual_wRCPlus": 87.6,
+      "delta": -17.8
+    }
   },
   {
     "name": "Nolan Jones",
@@ -18172,7 +20128,13 @@
         "age": 32,
         "wRCPlus": 70.8
       }
-    ]
+    ],
+    "backtest": {
+      "age": 27,
+      "expected_wRCPlus": 140.8,
+      "actual_wRCPlus": 72.0,
+      "delta": -68.8
+    }
   },
   {
     "name": "Nolan Schanuel",
@@ -18209,7 +20171,13 @@
         "age": 28,
         "wRCPlus": 120.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 23,
+      "expected_wRCPlus": 110.9,
+      "actual_wRCPlus": 108.6,
+      "delta": -2.2
+    }
   },
   {
     "name": "Nomar Mazara",
@@ -18241,7 +20209,8 @@
         "age": 29,
         "wRCPlus": 96.1
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Od\u00fabel Herrera",
@@ -18273,7 +20242,8 @@
         "age": 34,
         "wRCPlus": 66.2
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Omar Narv\u00e1ez",
@@ -18310,7 +20280,13 @@
         "age": 34,
         "wRCPlus": 73.1
       }
-    ]
+    ],
+    "backtest": {
+      "age": 29,
+      "expected_wRCPlus": 114.8,
+      "actual_wRCPlus": 100.1,
+      "delta": -14.7
+    }
   },
   {
     "name": "Oneil Cruz",
@@ -18352,7 +20328,13 @@
         "age": 31,
         "wRCPlus": 86.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 26,
+      "expected_wRCPlus": 111.7,
+      "actual_wRCPlus": 85.6,
+      "delta": -26.0
+    }
   },
   {
     "name": "Orlando Arcia",
@@ -18394,7 +20376,13 @@
         "age": 34,
         "wRCPlus": 56.5
       }
-    ]
+    ],
+    "backtest": {
+      "age": 29,
+      "expected_wRCPlus": 95.1,
+      "actual_wRCPlus": 72.5,
+      "delta": -22.6
+    }
   },
   {
     "name": "Oscar Gonzalez",
@@ -18426,7 +20414,8 @@
         "age": 29,
         "wRCPlus": 126.1
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Oswaldo Cabrera",
@@ -18463,7 +20452,13 @@
         "age": 30,
         "wRCPlus": 75.5
       }
-    ]
+    ],
+    "backtest": {
+      "age": 25,
+      "expected_wRCPlus": 61.2,
+      "actual_wRCPlus": 89.0,
+      "delta": 27.8
+    }
   },
   {
     "name": "Otto Lopez",
@@ -18500,7 +20495,13 @@
         "age": 31,
         "wRCPlus": 78.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 26,
+      "expected_wRCPlus": 92.6,
+      "actual_wRCPlus": 86.2,
+      "delta": -6.4
+    }
   },
   {
     "name": "Owen Miller",
@@ -18537,7 +20538,13 @@
         "age": 31,
         "wRCPlus": 75.6
       }
-    ]
+    ],
+    "backtest": {
+      "age": 26,
+      "expected_wRCPlus": 87.3,
+      "actual_wRCPlus": 81.8,
+      "delta": -5.5
+    }
   },
   {
     "name": "Ozzie Albies",
@@ -18589,7 +20596,13 @@
         "age": 33,
         "wRCPlus": 72.6
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 109.5,
+      "actual_wRCPlus": 86.9,
+      "delta": -22.6
+    }
   },
   {
     "name": "Patrick Bailey",
@@ -18631,7 +20644,13 @@
         "age": 31,
         "wRCPlus": 66.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 26,
+      "expected_wRCPlus": 81.3,
+      "actual_wRCPlus": 69.8,
+      "delta": -11.6
+    }
   },
   {
     "name": "Patrick Wisdom",
@@ -18673,7 +20692,13 @@
         "age": 36,
         "wRCPlus": 62.8
       }
-    ]
+    ],
+    "backtest": {
+      "age": 31,
+      "expected_wRCPlus": 103.0,
+      "actual_wRCPlus": 110.3,
+      "delta": 7.3
+    }
   },
   {
     "name": "Paul DeJong",
@@ -18720,7 +20745,13 @@
         "age": 35,
         "wRCPlus": 55.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 68.0,
+      "actual_wRCPlus": 95.7,
+      "delta": 27.7
+    }
   },
   {
     "name": "Paul Goldschmidt",
@@ -18761,7 +20792,13 @@
         "age": 38,
         "wRCPlus": 86.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 37,
+      "expected_wRCPlus": 90.9,
+      "actual_wRCPlus": 103.4,
+      "delta": 12.5
+    }
   },
   {
     "name": "Pavin Smith",
@@ -18793,7 +20830,8 @@
         "age": 30,
         "wRCPlus": 92.5
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Pedro Pag\u00e9s",
@@ -18825,7 +20863,8 @@
         "age": 31,
         "wRCPlus": 68.7
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Pedro Severino",
@@ -18862,7 +20901,13 @@
         "age": 32,
         "wRCPlus": 72.5
       }
-    ]
+    ],
+    "backtest": {
+      "age": 27,
+      "expected_wRCPlus": 96.6,
+      "actual_wRCPlus": 86.7,
+      "delta": -10.0
+    }
   },
   {
     "name": "Pete Alonso",
@@ -18919,7 +20964,13 @@
         "age": 35,
         "wRCPlus": 84.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 117.7,
+      "actual_wRCPlus": 141.2,
+      "delta": 23.5
+    }
   },
   {
     "name": "Pete Crow-Armstrong",
@@ -18956,7 +21007,13 @@
         "age": 28,
         "wRCPlus": 115.1
       }
-    ]
+    ],
+    "backtest": {
+      "age": 23,
+      "expected_wRCPlus": 91.0,
+      "actual_wRCPlus": 108.9,
+      "delta": 17.9
+    }
   },
   {
     "name": "Phil Gosselin",
@@ -18988,7 +21045,8 @@
         "age": 37,
         "wRCPlus": 46.9
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Rafael Devers",
@@ -19045,7 +21103,13 @@
         "age": 33,
         "wRCPlus": 102.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 134.2,
+      "actual_wRCPlus": 135.3,
+      "delta": 1.2
+    }
   },
   {
     "name": "Rafael Ortega",
@@ -19082,7 +21146,13 @@
         "age": 36,
         "wRCPlus": 61.5
       }
-    ]
+    ],
+    "backtest": {
+      "age": 31,
+      "expected_wRCPlus": 117.0,
+      "actual_wRCPlus": 98.2,
+      "delta": -18.8
+    }
   },
   {
     "name": "Raimel Tapia",
@@ -19124,7 +21194,13 @@
         "age": 33,
         "wRCPlus": 63.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 74.1,
+      "actual_wRCPlus": 90.8,
+      "delta": 16.8
+    }
   },
   {
     "name": "Ram\u00f3n Laureano",
@@ -19181,7 +21257,13 @@
         "age": 35,
         "wRCPlus": 78.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 95.7,
+      "actual_wRCPlus": 137.8,
+      "delta": 42.1
+    }
   },
   {
     "name": "Ram\u00f3n Ur\u00edas",
@@ -19228,7 +21310,13 @@
         "age": 36,
         "wRCPlus": 54.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 31,
+      "expected_wRCPlus": 100.0,
+      "actual_wRCPlus": 86.8,
+      "delta": -13.2
+    }
   },
   {
     "name": "Randal Grichuk",
@@ -19275,7 +21363,13 @@
         "age": 36,
         "wRCPlus": 54.5
       }
-    ]
+    ],
+    "backtest": {
+      "age": 31,
+      "expected_wRCPlus": 82.6,
+      "actual_wRCPlus": 101.4,
+      "delta": 18.7
+    }
   },
   {
     "name": "Randy Arozarena",
@@ -19327,7 +21421,13 @@
         "age": 35,
         "wRCPlus": 76.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 112.5,
+      "actual_wRCPlus": 120.0,
+      "delta": 7.5
+    }
   },
   {
     "name": "Renato N\u00fa\u00f1ez",
@@ -19359,7 +21459,8 @@
         "age": 30,
         "wRCPlus": 93.5
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Rhys Hoskins",
@@ -19411,7 +21512,13 @@
         "age": 37,
         "wRCPlus": 56.3
       }
-    ]
+    ],
+    "backtest": {
+      "age": 32,
+      "expected_wRCPlus": 97.3,
+      "actual_wRCPlus": 108.5,
+      "delta": 11.2
+    }
   },
   {
     "name": "Richie Martin",
@@ -19443,7 +21550,8 @@
         "age": 29,
         "wRCPlus": 51.3
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Richie Palacios",
@@ -19475,7 +21583,8 @@
         "age": 32,
         "wRCPlus": 82.7
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Riley Greene",
@@ -19522,7 +21631,13 @@
         "age": 29,
         "wRCPlus": 129.8
       }
-    ]
+    ],
+    "backtest": {
+      "age": 24,
+      "expected_wRCPlus": 137.7,
+      "actual_wRCPlus": 120.8,
+      "delta": -16.9
+    }
   },
   {
     "name": "Rio Ruiz",
@@ -19554,7 +21669,8 @@
         "age": 30,
         "wRCPlus": 74.8
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Rob Refsnyder",
@@ -19586,7 +21702,8 @@
         "age": 38,
         "wRCPlus": 70.3
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Robbie Grossman",
@@ -19633,7 +21750,13 @@
         "age": 38,
         "wRCPlus": 50.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 33,
+      "expected_wRCPlus": 83.3,
+      "actual_wRCPlus": 105.9,
+      "delta": 22.6
+    }
   },
   {
     "name": "Roberto P\u00e9rez",
@@ -19665,7 +21788,8 @@
         "age": 35,
         "wRCPlus": 66.4
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Robinson Can\u00f3",
@@ -19685,7 +21809,8 @@
         "age": 38,
         "wRCPlus": 72.3
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Robinson Chirinos",
@@ -19709,7 +21834,8 @@
         "age": 38,
         "wRCPlus": 74.5
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Romy Gonzalez",
@@ -19741,7 +21867,8 @@
         "age": 33,
         "wRCPlus": 93.0
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Ronald Acu\u00f1a Jr.",
@@ -19793,7 +21920,13 @@
         "age": 32,
         "wRCPlus": 132.8
       }
-    ]
+    ],
+    "backtest": {
+      "age": 27,
+      "expected_wRCPlus": 163.4,
+      "actual_wRCPlus": 161.1,
+      "delta": -2.3
+    }
   },
   {
     "name": "Ronald Torreyes",
@@ -19825,7 +21958,8 @@
         "age": 33,
         "wRCPlus": 52.0
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Rougned Odor",
@@ -19867,7 +22001,13 @@
         "age": 33,
         "wRCPlus": 61.5
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 81.9,
+      "actual_wRCPlus": 80.9,
+      "delta": -1.0
+    }
   },
   {
     "name": "Rowdy Tellez",
@@ -19924,7 +22064,13 @@
         "age": 35,
         "wRCPlus": 60.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 86.3,
+      "actual_wRCPlus": 100.6,
+      "delta": 14.3
+    }
   },
   {
     "name": "Royce Lewis",
@@ -19961,7 +22107,13 @@
         "age": 31,
         "wRCPlus": 81.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 26,
+      "expected_wRCPlus": 107.6,
+      "actual_wRCPlus": 84.6,
+      "delta": -23.0
+    }
   },
   {
     "name": "Ryan Braun",
@@ -19985,7 +22137,8 @@
         "age": 38,
         "wRCPlus": 77.8
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Ryan Jeffers",
@@ -20027,7 +22180,13 @@
         "age": 33,
         "wRCPlus": 85.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 113.4,
+      "actual_wRCPlus": 113.3,
+      "delta": -0.1
+    }
   },
   {
     "name": "Ryan McMahon",
@@ -20084,7 +22243,13 @@
         "age": 35,
         "wRCPlus": 55.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 85.0,
+      "actual_wRCPlus": 86.3,
+      "delta": 1.3
+    }
   },
   {
     "name": "Ryan Mountcastle",
@@ -20136,7 +22301,13 @@
         "age": 33,
         "wRCPlus": 74.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 109.6,
+      "actual_wRCPlus": 81.3,
+      "delta": -28.3
+    }
   },
   {
     "name": "Ryan Noda",
@@ -20168,7 +22339,8 @@
         "age": 32,
         "wRCPlus": 99.7
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Ryan O'Hearn",
@@ -20215,7 +22387,13 @@
         "age": 36,
         "wRCPlus": 71.3
       }
-    ]
+    ],
+    "backtest": {
+      "age": 31,
+      "expected_wRCPlus": 110.4,
+      "actual_wRCPlus": 127.3,
+      "delta": 16.9
+    }
   },
   {
     "name": "Sal Frelick",
@@ -20252,7 +22430,13 @@
         "age": 30,
         "wRCPlus": 101.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 25,
+      "expected_wRCPlus": 89.5,
+      "actual_wRCPlus": 114.0,
+      "delta": 24.5
+    }
   },
   {
     "name": "Salvador Perez",
@@ -20296,7 +22480,13 @@
         "age": 38,
         "wRCPlus": 62.1
       }
-    ]
+    ],
+    "backtest": {
+      "age": 35,
+      "expected_wRCPlus": 90.7,
+      "actual_wRCPlus": 95.4,
+      "delta": 4.8
+    }
   },
   {
     "name": "Santiago Espinal",
@@ -20338,7 +22528,13 @@
         "age": 35,
         "wRCPlus": 43.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 77.5,
+      "actual_wRCPlus": 58.0,
+      "delta": -19.5
+    }
   },
   {
     "name": "Scott Kingery",
@@ -20370,7 +22566,8 @@
         "age": 30,
         "wRCPlus": 95.0
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Sean Murphy",
@@ -20417,7 +22614,13 @@
         "age": 35,
         "wRCPlus": 67.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 113.9,
+      "actual_wRCPlus": 96.6,
+      "delta": -17.2
+    }
   },
   {
     "name": "Seiya Suzuki",
@@ -20464,7 +22667,13 @@
         "age": 35,
         "wRCPlus": 80.6
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 124.8,
+      "actual_wRCPlus": 122.6,
+      "delta": -2.2
+    }
   },
   {
     "name": "Seth Brown",
@@ -20511,7 +22720,13 @@
         "age": 36,
         "wRCPlus": 54.8
       }
-    ]
+    ],
+    "backtest": {
+      "age": 31,
+      "expected_wRCPlus": 94.6,
+      "actual_wRCPlus": 91.1,
+      "delta": -3.4
+    }
   },
   {
     "name": "Shea Langeliers",
@@ -20553,7 +22768,13 @@
         "age": 32,
         "wRCPlus": 98.8
       }
-    ]
+    ],
+    "backtest": {
+      "age": 27,
+      "expected_wRCPlus": 104.4,
+      "actual_wRCPlus": 132.3,
+      "delta": 27.9
+    }
   },
   {
     "name": "Shin-Soo Choo",
@@ -20573,7 +22794,8 @@
         "age": 38,
         "wRCPlus": 86.1
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Shohei Ohtani",
@@ -20630,7 +22852,13 @@
         "age": 35,
         "wRCPlus": 109.8
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 163.2,
+      "actual_wRCPlus": 172.3,
+      "delta": 9.1
+    }
   },
   {
     "name": "Spencer Horwitz",
@@ -20667,7 +22895,13 @@
         "age": 32,
         "wRCPlus": 100.3
       }
-    ]
+    ],
+    "backtest": {
+      "age": 27,
+      "expected_wRCPlus": 129.2,
+      "actual_wRCPlus": 119.0,
+      "delta": -10.2
+    }
   },
   {
     "name": "Spencer Steer",
@@ -20709,7 +22943,13 @@
         "age": 32,
         "wRCPlus": 83.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 27,
+      "expected_wRCPlus": 107.1,
+      "actual_wRCPlus": 97.0,
+      "delta": -10.1
+    }
   },
   {
     "name": "Spencer Torkelson",
@@ -20756,7 +22996,13 @@
         "age": 30,
         "wRCPlus": 105.6
       }
-    ]
+    ],
+    "backtest": {
+      "age": 25,
+      "expected_wRCPlus": 101.7,
+      "actual_wRCPlus": 117.6,
+      "delta": 15.9
+    }
   },
   {
     "name": "Starlin Castro",
@@ -20793,7 +23039,13 @@
         "age": 36,
         "wRCPlus": 52.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 31,
+      "expected_wRCPlus": 83.4,
+      "actual_wRCPlus": 91.1,
+      "delta": 7.7
+    }
   },
   {
     "name": "Starling Marte",
@@ -20838,7 +23090,13 @@
         "age": 38,
         "wRCPlus": 74.1
       }
-    ]
+    ],
+    "backtest": {
+      "age": 36,
+      "expected_wRCPlus": 81.6,
+      "actual_wRCPlus": 112.3,
+      "delta": 30.7
+    }
   },
   {
     "name": "Stephen Piscotty",
@@ -20870,7 +23128,8 @@
         "age": 33,
         "wRCPlus": 70.3
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Steven Kwan",
@@ -20917,7 +23176,13 @@
         "age": 32,
         "wRCPlus": 89.6
       }
-    ]
+    ],
+    "backtest": {
+      "age": 27,
+      "expected_wRCPlus": 122.9,
+      "actual_wRCPlus": 98.9,
+      "delta": -23.9
+    }
   },
   {
     "name": "Stevie Wilkerson",
@@ -20949,7 +23214,8 @@
         "age": 32,
         "wRCPlus": 60.1
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "TJ Friedl",
@@ -20991,7 +23257,13 @@
         "age": 34,
         "wRCPlus": 74.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 29,
+      "expected_wRCPlus": 98.4,
+      "actual_wRCPlus": 108.6,
+      "delta": 10.2
+    }
   },
   {
     "name": "Taylor Walls",
@@ -21033,7 +23305,13 @@
         "age": 33,
         "wRCPlus": 52.8
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 77.2,
+      "actual_wRCPlus": 66.2,
+      "delta": -11.1
+    }
   },
   {
     "name": "Taylor Ward",
@@ -21080,7 +23358,13 @@
         "age": 36,
         "wRCPlus": 66.5
       }
-    ]
+    ],
+    "backtest": {
+      "age": 31,
+      "expected_wRCPlus": 107.2,
+      "actual_wRCPlus": 116.7,
+      "delta": 9.5
+    }
   },
   {
     "name": "Teoscar Hern\u00e1ndez",
@@ -21137,7 +23421,13 @@
         "age": 37,
         "wRCPlus": 59.1
       }
-    ]
+    ],
+    "backtest": {
+      "age": 32,
+      "expected_wRCPlus": 112.7,
+      "actual_wRCPlus": 101.8,
+      "delta": -10.9
+    }
   },
   {
     "name": "Thairo Estrada",
@@ -21179,7 +23469,13 @@
         "age": 33,
         "wRCPlus": 63.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 101.6,
+      "actual_wRCPlus": 64.3,
+      "delta": -37.3
+    }
   },
   {
     "name": "Tim Anderson",
@@ -21226,7 +23522,13 @@
         "age": 35,
         "wRCPlus": 52.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 108.7,
+      "actual_wRCPlus": 60.7,
+      "delta": -48.0
+    }
   },
   {
     "name": "Tim Beckham",
@@ -21258,7 +23560,8 @@
         "age": 34,
         "wRCPlus": 70.4
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Todd Frazier",
@@ -21290,7 +23593,8 @@
         "age": 38,
         "wRCPlus": 57.1
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Tom Murphy",
@@ -21322,7 +23626,8 @@
         "age": 35,
         "wRCPlus": 56.8
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Tommy Edman",
@@ -21374,7 +23679,13 @@
         "age": 35,
         "wRCPlus": 55.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 89.6,
+      "actual_wRCPlus": 80.7,
+      "delta": -8.9
+    }
   },
   {
     "name": "Tommy La Stella",
@@ -21406,7 +23717,8 @@
         "age": 35,
         "wRCPlus": 77.6
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Tommy Pham",
@@ -21447,7 +23759,13 @@
         "age": 38,
         "wRCPlus": 75.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 37,
+      "expected_wRCPlus": 75.1,
+      "actual_wRCPlus": 94.4,
+      "delta": 19.3
+    }
   },
   {
     "name": "Tom\u00e1s Nido",
@@ -21479,7 +23797,8 @@
         "age": 33,
         "wRCPlus": 54.4
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Tony Kemp",
@@ -21521,7 +23840,13 @@
         "age": 36,
         "wRCPlus": 49.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 31,
+      "expected_wRCPlus": 94.1,
+      "actual_wRCPlus": 75.7,
+      "delta": -18.4
+    }
   },
   {
     "name": "Tony Wolters",
@@ -21553,7 +23878,8 @@
         "age": 32,
         "wRCPlus": 51.7
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Travis d'Arnaud",
@@ -21587,7 +23913,13 @@
         "age": 38,
         "wRCPlus": 67.3
       }
-    ]
+    ],
+    "backtest": {
+      "age": 35,
+      "expected_wRCPlus": 93.4,
+      "actual_wRCPlus": 103.5,
+      "delta": 10.1
+    }
   },
   {
     "name": "Trea Turner",
@@ -21644,7 +23976,13 @@
         "age": 37,
         "wRCPlus": 64.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 32,
+      "expected_wRCPlus": 108.0,
+      "actual_wRCPlus": 124.8,
+      "delta": 16.8
+    }
   },
   {
     "name": "Trent Grisham",
@@ -21691,7 +24029,13 @@
         "age": 33,
         "wRCPlus": 89.5
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 91.3,
+      "actual_wRCPlus": 129.0,
+      "delta": 37.7
+    }
   },
   {
     "name": "Trevor Larnach",
@@ -21733,7 +24077,13 @@
         "age": 33,
         "wRCPlus": 80.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 116.3,
+      "actual_wRCPlus": 101.9,
+      "delta": -14.5
+    }
   },
   {
     "name": "Trevor Story",
@@ -21780,7 +24130,13 @@
         "age": 37,
         "wRCPlus": 54.3
       }
-    ]
+    ],
+    "backtest": {
+      "age": 32,
+      "expected_wRCPlus": 85.6,
+      "actual_wRCPlus": 101.0,
+      "delta": 15.4
+    }
   },
   {
     "name": "Trey Mancini",
@@ -21822,7 +24178,13 @@
         "age": 35,
         "wRCPlus": 68.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 104.9,
+      "actual_wRCPlus": 104.9,
+      "delta": -0.0
+    }
   },
   {
     "name": "Trey Sweeney",
@@ -21854,7 +24216,8 @@
         "age": 30,
         "wRCPlus": 50.0
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Triston Casas",
@@ -21886,7 +24249,8 @@
         "age": 28,
         "wRCPlus": 144.4
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Tucker Barnhart",
@@ -21928,7 +24292,13 @@
         "age": 36,
         "wRCPlus": 40.5
       }
-    ]
+    ],
+    "backtest": {
+      "age": 31,
+      "expected_wRCPlus": 76.1,
+      "actual_wRCPlus": 62.6,
+      "delta": -13.6
+    }
   },
   {
     "name": "Ty France",
@@ -21980,7 +24350,13 @@
         "age": 35,
         "wRCPlus": 62.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 98.3,
+      "actual_wRCPlus": 92.0,
+      "delta": -6.3
+    }
   },
   {
     "name": "Tyler Fitzgerald",
@@ -22012,7 +24388,8 @@
         "age": 31,
         "wRCPlus": 118.4
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Tyler Flowers",
@@ -22044,7 +24421,8 @@
         "age": 38,
         "wRCPlus": 46.3
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Tyler Freeman",
@@ -22081,7 +24459,13 @@
         "age": 31,
         "wRCPlus": 79.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 26,
+      "expected_wRCPlus": 85.1,
+      "actual_wRCPlus": 90.8,
+      "delta": 5.7
+    }
   },
   {
     "name": "Tyler Naquin",
@@ -22118,7 +24502,13 @@
         "age": 36,
         "wRCPlus": 57.6
       }
-    ]
+    ],
+    "backtest": {
+      "age": 31,
+      "expected_wRCPlus": 105.3,
+      "actual_wRCPlus": 92.3,
+      "delta": -13.1
+    }
   },
   {
     "name": "Tyler O'Neill",
@@ -22160,7 +24550,13 @@
         "age": 34,
         "wRCPlus": 90.5
       }
-    ]
+    ],
+    "backtest": {
+      "age": 29,
+      "expected_wRCPlus": 113.4,
+      "actual_wRCPlus": 132.7,
+      "delta": 19.3
+    }
   },
   {
     "name": "Tyler Soderstrom",
@@ -22192,7 +24588,8 @@
         "age": 28,
         "wRCPlus": 137.8
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Tyler Stephenson",
@@ -22239,7 +24636,13 @@
         "age": 33,
         "wRCPlus": 77.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 104.0,
+      "actual_wRCPlus": 99.5,
+      "delta": -4.6
+    }
   },
   {
     "name": "Tyrone Taylor",
@@ -22281,7 +24684,13 @@
         "age": 36,
         "wRCPlus": 46.6
       }
-    ]
+    ],
+    "backtest": {
+      "age": 31,
+      "expected_wRCPlus": 92.3,
+      "actual_wRCPlus": 70.0,
+      "delta": -22.3
+    }
   },
   {
     "name": "Victor Caratini",
@@ -22323,7 +24732,13 @@
         "age": 36,
         "wRCPlus": 59.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 31,
+      "expected_wRCPlus": 71.3,
+      "actual_wRCPlus": 104.4,
+      "delta": 33.1
+    }
   },
   {
     "name": "Victor Reyes",
@@ -22355,7 +24770,8 @@
         "age": 32,
         "wRCPlus": 69.2
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Victor Robles",
@@ -22397,7 +24813,13 @@
         "age": 30,
         "wRCPlus": 67.8
       }
-    ]
+    ],
+    "backtest": {
+      "age": 25,
+      "expected_wRCPlus": 80.8,
+      "actual_wRCPlus": 65.5,
+      "delta": -15.3
+    }
   },
   {
     "name": "Victor Scott II",
@@ -22429,7 +24851,8 @@
         "age": 29,
         "wRCPlus": 77.1
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Vinnie Pasquantino",
@@ -22466,7 +24889,13 @@
         "age": 32,
         "wRCPlus": 93.8
       }
-    ]
+    ],
+    "backtest": {
+      "age": 27,
+      "expected_wRCPlus": 111.5,
+      "actual_wRCPlus": 115.6,
+      "delta": 4.1
+    }
   },
   {
     "name": "Vladimir Guerrero Jr.",
@@ -22523,7 +24952,13 @@
         "age": 31,
         "wRCPlus": 130.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 26,
+      "expected_wRCPlus": 153.3,
+      "actual_wRCPlus": 137.0,
+      "delta": -16.2
+    }
   },
   {
     "name": "Wander Franco",
@@ -22565,7 +25000,8 @@
         "age": 27,
         "wRCPlus": 148.9
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Wenceel P\u00e9rez",
@@ -22602,7 +25038,13 @@
         "age": 30,
         "wRCPlus": 95.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 25,
+      "expected_wRCPlus": 96.9,
+      "actual_wRCPlus": 103.4,
+      "delta": 6.5
+    }
   },
   {
     "name": "Whit Merrifield",
@@ -22646,7 +25088,13 @@
         "age": 38,
         "wRCPlus": 51.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 35,
+      "expected_wRCPlus": 75.5,
+      "actual_wRCPlus": 79.1,
+      "delta": 3.6
+    }
   },
   {
     "name": "Wil Myers",
@@ -22683,7 +25131,13 @@
         "age": 35,
         "wRCPlus": 69.6
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 90.0,
+      "actual_wRCPlus": 110.7,
+      "delta": 20.7
+    }
   },
   {
     "name": "Will Benson",
@@ -22720,7 +25174,13 @@
         "age": 31,
         "wRCPlus": 82.8
       }
-    ]
+    ],
+    "backtest": {
+      "age": 26,
+      "expected_wRCPlus": 129.4,
+      "actual_wRCPlus": 76.4,
+      "delta": -53.0
+    }
   },
   {
     "name": "Will Brennan",
@@ -22757,7 +25217,13 @@
         "age": 31,
         "wRCPlus": 81.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 26,
+      "expected_wRCPlus": 80.6,
+      "actual_wRCPlus": 98.0,
+      "delta": 17.4
+    }
   },
   {
     "name": "Will Smith",
@@ -22809,7 +25275,13 @@
         "age": 35,
         "wRCPlus": 84.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 108.5,
+      "actual_wRCPlus": 152.7,
+      "delta": 44.2
+    }
   },
   {
     "name": "Willi Castro",
@@ -22861,7 +25333,13 @@
         "age": 33,
         "wRCPlus": 73.8
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 102.2,
+      "actual_wRCPlus": 92.3,
+      "delta": -10.0
+    }
   },
   {
     "name": "William Contreras",
@@ -22908,7 +25386,13 @@
         "age": 32,
         "wRCPlus": 100.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 27,
+      "expected_wRCPlus": 134.1,
+      "actual_wRCPlus": 113.5,
+      "delta": -20.6
+    }
   },
   {
     "name": "Willie Calhoun",
@@ -22940,7 +25424,8 @@
         "age": 29,
         "wRCPlus": 112.6
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Willson Contreras",
@@ -22997,7 +25482,13 @@
         "age": 38,
         "wRCPlus": 64.3
       }
-    ]
+    ],
+    "backtest": {
+      "age": 33,
+      "expected_wRCPlus": 115.7,
+      "actual_wRCPlus": 123.6,
+      "delta": 7.8
+    }
   },
   {
     "name": "Willy Adames",
@@ -23054,7 +25545,13 @@
         "age": 34,
         "wRCPlus": 76.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 29,
+      "expected_wRCPlus": 108.8,
+      "actual_wRCPlus": 107.7,
+      "delta": -1.1
+    }
   },
   {
     "name": "Wilmer Flores",
@@ -23101,7 +25598,13 @@
         "age": 38,
         "wRCPlus": 51.6
       }
-    ]
+    ],
+    "backtest": {
+      "age": 33,
+      "expected_wRCPlus": 100.6,
+      "actual_wRCPlus": 94.9,
+      "delta": -5.7
+    }
   },
   {
     "name": "Wilson Ramos",
@@ -23133,7 +25636,8 @@
         "age": 36,
         "wRCPlus": 62.9
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Wilyer Abreu",
@@ -23170,7 +25674,13 @@
         "age": 31,
         "wRCPlus": 101.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 26,
+      "expected_wRCPlus": 117.0,
+      "actual_wRCPlus": 110.1,
+      "delta": -6.9
+    }
   },
   {
     "name": "Wyatt Langford",
@@ -23207,7 +25717,13 @@
         "age": 28,
         "wRCPlus": 129.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 23,
+      "expected_wRCPlus": 117.8,
+      "actual_wRCPlus": 118.2,
+      "delta": 0.4
+    }
   },
   {
     "name": "Xander Bogaerts",
@@ -23264,7 +25780,13 @@
         "age": 37,
         "wRCPlus": 55.8
       }
-    ]
+    ],
+    "backtest": {
+      "age": 32,
+      "expected_wRCPlus": 99.7,
+      "actual_wRCPlus": 103.9,
+      "delta": 4.2
+    }
   },
   {
     "name": "Xavier Edwards",
@@ -23301,7 +25823,13 @@
         "age": 30,
         "wRCPlus": 97.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 25,
+      "expected_wRCPlus": 133.6,
+      "actual_wRCPlus": 95.5,
+      "delta": -38.1
+    }
   },
   {
     "name": "Yadiel Hernandez",
@@ -23329,7 +25857,8 @@
         "age": 38,
         "wRCPlus": 60.6
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Yadier Molina",
@@ -23345,7 +25874,13 @@
         "PA": 473.0
       }
     ],
-    "forecast": []
+    "forecast": [],
+    "backtest": {
+      "age": 38,
+      "expected_wRCPlus": 67.9,
+      "actual_wRCPlus": 81.4,
+      "delta": 13.5
+    }
   },
   {
     "name": "Yainer Diaz",
@@ -23387,7 +25922,13 @@
         "age": 31,
         "wRCPlus": 93.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 26,
+      "expected_wRCPlus": 120.5,
+      "actual_wRCPlus": 91.9,
+      "delta": -28.7
+    }
   },
   {
     "name": "Yan Gomes",
@@ -23421,7 +25962,13 @@
         "age": 38,
         "wRCPlus": 60.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 35,
+      "expected_wRCPlus": 71.1,
+      "actual_wRCPlus": 96.0,
+      "delta": 24.9
+    }
   },
   {
     "name": "Yandy D\u00edaz",
@@ -23478,7 +26025,13 @@
         "age": 38,
         "wRCPlus": 67.5
       }
-    ]
+    ],
+    "backtest": {
+      "age": 33,
+      "expected_wRCPlus": 117.1,
+      "actual_wRCPlus": 134.6,
+      "delta": 17.5
+    }
   },
   {
     "name": "Yasiel Puig",
@@ -23510,7 +26063,8 @@
         "age": 33,
         "wRCPlus": 75.9
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Yasmani Grandal",
@@ -23553,7 +26107,13 @@
         "age": 38,
         "wRCPlus": 48.5
       }
-    ]
+    ],
+    "backtest": {
+      "age": 34,
+      "expected_wRCPlus": 85.1,
+      "actual_wRCPlus": 80.2,
+      "delta": -4.9
+    }
   },
   {
     "name": "Yolmer S\u00e1nchez",
@@ -23585,7 +26145,8 @@
         "age": 32,
         "wRCPlus": 59.6
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Yonathan Daza",
@@ -23622,7 +26183,13 @@
         "age": 33,
         "wRCPlus": 67.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 73.1,
+      "actual_wRCPlus": 95.0,
+      "delta": 21.9
+    }
   },
   {
     "name": "Yonder Alonso",
@@ -23654,7 +26221,8 @@
         "age": 37,
         "wRCPlus": 36.1
       }
-    ]
+    ],
+    "backtest": null
   },
   {
     "name": "Yordan Alvarez",
@@ -23706,7 +26274,13 @@
         "age": 32,
         "wRCPlus": 139.7
       }
-    ]
+    ],
+    "backtest": {
+      "age": 27,
+      "expected_wRCPlus": 174.9,
+      "actual_wRCPlus": 167.1,
+      "delta": -7.8
+    }
   },
   {
     "name": "Yo\u00e1n Moncada",
@@ -23753,7 +26327,13 @@
         "age": 33,
         "wRCPlus": 74.9
       }
-    ]
+    ],
+    "backtest": {
+      "age": 28,
+      "expected_wRCPlus": 98.9,
+      "actual_wRCPlus": 98.9,
+      "delta": -0.0
+    }
   },
   {
     "name": "Yuli Gurriel",
@@ -23779,7 +26359,8 @@
         "PA": 329.0
       }
     ],
-    "forecast": []
+    "forecast": [],
+    "backtest": null
   },
   {
     "name": "Zach McKinstry",
@@ -23821,7 +26402,13 @@
         "age": 35,
         "wRCPlus": 64.4
       }
-    ]
+    ],
+    "backtest": {
+      "age": 30,
+      "expected_wRCPlus": 72.8,
+      "actual_wRCPlus": 113.7,
+      "delta": 40.9
+    }
   },
   {
     "name": "Zach Neto",
@@ -23863,7 +26450,13 @@
         "age": 29,
         "wRCPlus": 118.0
       }
-    ]
+    ],
+    "backtest": {
+      "age": 24,
+      "expected_wRCPlus": 115.4,
+      "actual_wRCPlus": 115.6,
+      "delta": 0.2
+    }
   },
   {
     "name": "Zack Gelof",
@@ -23900,7 +26493,13 @@
         "age": 29,
         "wRCPlus": 96.2
       }
-    ]
+    ],
+    "backtest": {
+      "age": 24,
+      "expected_wRCPlus": 138.0,
+      "actual_wRCPlus": 82.2,
+      "delta": -55.8
+    }
   },
   {
     "name": "\u00d3scar Mercado",
@@ -23932,6 +26531,7 @@
         "age": 29,
         "wRCPlus": 100.5
       }
-    ]
+    ],
+    "backtest": null
   }
 ]
