@@ -11,11 +11,12 @@
 <h1>Dynaty Curve: MLB Projections</h1>
 <h2>Population Age Curve</h2>
 <canvas id="populationChart" width="800" height="300"></canvas>
-
+<p>This age curve uses data from hitters between 2005 and 2025 who had at least 300 plate apperances in a given season.For each age, median wRC+ is calculated and smoothed to reduce noise, and the peak performance age is identified. After the peak, it applies a survivorship penalty so older ages aren’t inflated by only elite players remaining in the league. Finally, it smooths the curve again and normalizes so peak age equals 1.0.</p>
 <h2>Player History + Forecast</h2>
 <input list="playerList" id="playerSearch" placeholder="Select a player">
 <datalist id="playerList"></datalist>
 <canvas id="playerChart" width="800" height="300"></canvas>
+<p>For player forecasts, the age curve provides an expected performance level for each age relative to peak. For each player, their recent seasons are compared to the age curve to estimate a “skill multiplier,” which captures how much better or worse they are than an average player at those ages, with more recent and higher-PA seasons weighted more heavily. That skill multiplier is then held constant and applied to the age curve going forward. Multiplying the player’s skill by the age-based expectation and league-average wRC+ produces forecasted wRC+ values for future seasons.</p>
 
 <script src="script.js"></script>
 </body>
