@@ -23,7 +23,8 @@ fetch('data/players_forecast.json')
   .then(data => {
     players = data;
     populateDatalist();
-    updateOutliers(); // Populate the over/under performer lists
+    initPlayerChart();   // Make sure the player chart exists
+    updateOutliers();    // Populate over/under performer lists
   });
 
 // -----------------------------
@@ -96,7 +97,6 @@ function initPlayerChart() {
     }
   });
 }
-initPlayerChart();
 
 // -----------------------------
 // Handle player search
@@ -113,23 +113,24 @@ document.getElementById('playerSearch').addEventListener('change', function () {
 function plotPlayer(player) {
   console.log("Plotting player:", player);
 
+  // Clear previous datasets
   playerChart.data.datasets = [];
 
   // Historical points
   const historyData = player.history.map(h => ({ x: h.age, y: h.wRCPlus }));
 
-  // Backtest points (predicted last season)
-  const backtestData = player.backtest ? player.backtest.map(b => ({ x: b.age, y: b.wRCPlus })) : [];
+  // Backtest points (if present)
+  const backtestData = (player.backtest || []).map(b => ({ x: b.age, y: b.wRCPlus }));
 
   // Forecast points
   const forecastData = player.forecast.map(f => ({ x: f.age, y: f.wRCPlus }));
 
-  // Combine all Y values for dynamic axis scaling
+  // Determine dynamic Y-axis min/max
   const allY = [
     ...historyData.map(d => d.y),
     ...backtestData.map(d => d.y),
     ...forecastData.map(d => d.y),
-    100 // league avg
+    100 // include league average
   ];
   const minY = Math.floor(Math.min(...allY) / 10) * 10 - 10;
   const maxY = Math.ceil(Math.max(...allY) / 10) * 10 + 10;
@@ -137,13 +138,10 @@ function plotPlayer(player) {
   playerChart.options.scales.y.min = minY;
   playerChart.options.scales.y.max = maxY;
 
-  // League average line
+  // League average line at 100
   playerChart.data.datasets.push({
     label: 'League Avg (100 wRC+)',
-    data: [
-      { x: 18, y: 100 },
-      { x: 40, y: 100 }
-    ],
+    data: [{ x: 18, y: 100 }, { x: 40, y: 100 }],
     borderColor: 'gray',
     borderDash: [5, 5],
     fill: false,
@@ -166,10 +164,9 @@ function plotPlayer(player) {
       label: player.name + ' Backtest',
       data: backtestData,
       borderColor: 'orange',
-      borderDash: [5, 5],
+      borderDash: [2, 2],
       fill: false,
-      pointRadius: 6,
-      type: 'scatter'
+      tension: 0.2
     });
   }
 
@@ -192,7 +189,7 @@ function plotPlayer(player) {
 function updateOutliers() {
   const diffs = players.map(p => {
     const lastSeason = p.history[p.history.length - 1];
-    const predicted = p.backtest && p.backtest.length > 0 ? p.backtest[p.backtest.length - 1] : null;
+    const predicted = p.backtest && p.backtest.length > 0 ? p.backtest[p.backtest.length - 1] : p.forecast[0];
     const delta = lastSeason && predicted ? lastSeason.wRCPlus - predicted.wRCPlus : 0;
     return { player: p, delta };
   });
