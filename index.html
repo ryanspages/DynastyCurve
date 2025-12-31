@@ -18,7 +18,18 @@
 <datalist id="playerList"></datalist>
 <canvas id="playerChart" width="800" height="300"></canvas>
 <p>For player forecasts, the age curve defines the expected performance at each age. A player’s recent seasons are compared to this curve to estimate a skill multiplier, weighted toward more recent and higher-PA seasons. That skill level is then applied to future ages on the curve, producing forecasted wRC+ values relative to league average.</p>
-
+<br>
+  <!-- Outlier Lists -->
+  <div class="outliers">
+    <div>
+      <h3>Top 5 Overperformers</h3>
+      <ul id="overperformers"></ul>
+    </div>
+    <div>
+      <h3>Top 5 Underperformers</h3>
+      <ul id="underperformers"></ul>
+    </div>
+  </div>
 <script src="script.js"></script>
 </body>
 </html>

@@ -22,19 +22,25 @@ fetch('data/players_forecast.json')
   .then(response => response.json())
   .then(data => {
     players = data;
-
-    // Populate datalist for controlled search
-    const list = document.getElementById('playerList');
-    if (!list) return;
-
-    list.innerHTML = '';
-    players.forEach(p => {
-      if (!p.name) return;
-      const option = document.createElement('option');
-      option.value = p.name;
-      list.appendChild(option);
-    });
+    populateDatalist();
+    updateOutliers(); // Populate the over/under performer lists
   });
+
+// -----------------------------
+// Populate datalist for controlled search
+// -----------------------------
+function populateDatalist() {
+  const list = document.getElementById('playerList');
+  if (!list) return;
+
+  list.innerHTML = '';
+  players.forEach(p => {
+    if (!p.name) return;
+    const option = document.createElement('option');
+    option.value = p.name;
+    list.appendChild(option);
+  });
+}
 
 // -----------------------------
 // Initialize population curve chart
@@ -110,37 +116,21 @@ function plotPlayer(player) {
   // Clear previous datasets
   playerChart.data.datasets = [];
 
-  // -----------------------------
-  // Build data arrays
-  // -----------------------------
+  // Historical points
   const historyData = player.history.map(h => ({ x: h.age, y: h.wRCPlus }));
+
+  // Forecast points
   const forecastData = player.forecast.map(f => ({ x: f.age, y: f.wRCPlus }));
 
-  // -----------------------------
-  // Dynamic Y-axis (include backtest + league avg)
-  // -----------------------------
-  const allY = [
-    ...historyData.map(d => d.y),
-    ...forecastData.map(d => d.y),
-    100 // league average
-  ];
-
-  if (player.backtest) {
-    allY.push(
-      player.backtest.expected_wRCPlus,
-      player.backtest.actual_wRCPlus
-    );
-  }
-
+  // Combine all Y values for dynamic axis scaling
+  const allY = [...historyData.map(d => d.y), ...forecastData.map(d => d.y), 100]; // include league avg
   const minY = Math.floor(Math.min(...allY) / 10) * 10 - 10;
   const maxY = Math.ceil(Math.max(...allY) / 10) * 10 + 10;
 
   playerChart.options.scales.y.min = minY;
   playerChart.options.scales.y.max = maxY;
 
-  // -----------------------------
-  // League average line
-  // -----------------------------
+  // League average line at 100
   playerChart.data.datasets.push({
     label: 'League Avg (100 wRC+)',
     data: [
@@ -153,9 +143,7 @@ function plotPlayer(player) {
     pointRadius: 0
   });
 
-  // -----------------------------
-  // Historical performance
-  // -----------------------------
+  // Historical dataset
   playerChart.data.datasets.push({
     label: player.name + ' History',
     data: historyData,
@@ -165,9 +153,7 @@ function plotPlayer(player) {
     type: 'scatter'
   });
 
-  // -----------------------------
-  // Forecast
-  // -----------------------------
+  // Forecast dataset
   playerChart.data.datasets.push({
     label: player.name + ' Forecast',
     data: forecastData,
@@ -177,37 +163,46 @@ function plotPlayer(player) {
     tension: 0.2
   });
 
-  // -----------------------------
-  // Backtest: expected vs actual
-  // -----------------------------
-  if (player.backtest) {
-    const bt = player.backtest;
-
-    // Expected point (model)
-    playerChart.data.datasets.push({
-      label: 'Expected (model)',
-      data: [{ x: bt.age, y: bt.expected_wRCPlus }],
-      borderColor: 'orange',
-      backgroundColor: 'white',
-      pointBorderColor: 'orange',
-      pointRadius: 7,
-      pointStyle: 'circle',
-      type: 'scatter'
-    });
-
-    // Connector line: expected → actual
-    playerChart.data.datasets.push({
-      label: 'Expected → Actual',
-      data: [
-        { x: bt.age, y: bt.expected_wRCPlus },
-        { x: bt.age, y: bt.actual_wRCPlus }
-      ],
-      borderColor: 'orange',
-      borderDash: [2, 2],
-      fill: false,
-      pointRadius: 0
-    });
-  }
-
   playerChart.update();
+}
+
+// -----------------------------
+// Compute and populate top over/under performers
+// -----------------------------
+function updateOutliers() {
+  const diffs = players.map(p => {
+    const lastSeason = p.history[p.history.length - 1];
+    const predicted = p.forecast[0]; // forecast for next season based on previous data
+    const delta = lastSeason && predicted ? lastSeason.wRCPlus - predicted.wRCPlus : 0;
+    return { player: p, delta };
+  });
+
+  const topOver = diffs
+    .filter(d => d.delta > 0)
+    .sort((a, b) => b.delta - a.delta)
+    .slice(0, 5);
+
+  const topUnder = diffs
+    .filter(d => d.delta < 0)
+    .sort((a, b) => a.delta - b.delta)
+    .slice(0, 5);
+
+  const overList = document.getElementById('overperformers');
+  const underList = document.getElementById('underperformers');
+
+  overList.innerHTML = '';
+  topOver.forEach(d => {
+    const li = document.createElement('li');
+    li.textContent = `${d.player.name} (+${d.delta.toFixed(1)})`;
+    li.addEventListener('click', () => plotPlayer(d.player));
+    overList.appendChild(li);
+  });
+
+  underList.innerHTML = '';
+  topUnder.forEach(d => {
+    const li = document.createElement('li');
+    li.textContent = `${d.player.name} (${d.delta.toFixed(1)})`;
+    li.addEventListener('click', () => plotPlayer(d.player));
+    underList.appendChild(li);
+  });
 }
