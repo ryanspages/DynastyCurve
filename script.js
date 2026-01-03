@@ -80,7 +80,20 @@ function initPlayerChart() {
     data: { datasets: [] },
     options: {
       responsive: true,
-      plugins: { legend: { display: true } },
+      plugins: { legend: { display: true, position: 'bottom'},
+      title: {
+        display: true,
+        text: 'Select a player',
+        font: {
+          size: 18,
+          weight: 'bold'
+        },
+        padding: {
+          top: 10,
+          bottom: 10
+        }
+      }
+      },
       scales: {
         x: {
           type: 'linear',
@@ -129,6 +142,9 @@ function loadRandomPlayer() {
 // -----------------------------
 function plotPlayer(player) {
   console.log("Plotting player:", player);
+
+  // Update chart title
+playerChart.options.plugins.title.text = player.name;
 
   // Clear previous datasets
   playerChart.data.datasets = [];
