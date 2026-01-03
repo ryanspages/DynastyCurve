@@ -24,6 +24,7 @@ fetch('data/players_forecast.json')
     players = data;
     populateDatalist();
     updateOutliers();
+    loadRandomPlayer();
   });
 
 // -----------------------------
@@ -106,6 +107,22 @@ document.getElementById('playerSearch').addEventListener('change', function () {
   const player = players.find(p => p.name === selectedName);
   if (player) plotPlayer(player);
 });
+
+// Load random player first
+function loadRandomPlayer() {
+  if (!players.length) return;
+
+  const randomPlayer = players[Math.floor(Math.random() * players.length)];
+
+  // Populate input field
+  const input = document.getElementById('playerSearch');
+  if (input) {
+    input.value = randomPlayer.name;
+  }
+
+  // Plot chart
+  plotPlayer(randomPlayer);
+}
 
 // -----------------------------
 // Plot player: history, forecast, backtest
