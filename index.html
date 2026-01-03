@@ -14,10 +14,11 @@
 <p>This age curve is built from hitters between 2005 and 2025 with at least 300 plate appearances in a season. For each age, median wRC+ is calculated and smoothed to reduce noise, then the peak age is identified. After the peak, a survivorship adjustment is applied so older ages aren’t inflated by only elite players remaining in the league. The curve is smoothed again and normalized so peak performance equals 1.</p>
 <br>
 <h2>Player History + Forecast</h2>
+<p><i>A random player is loaded with the page</i></p>
 <input list="playerList" id="playerSearch" placeholder="Select a player">
 <datalist id="playerList"></datalist>
 <canvas id="playerChart" width="800" height="300"></canvas>
-<p>For player forecasts, the age curve defines the expected performance at each age. A player’s recent seasons are compared to this curve to estimate a skill multiplier, weighted toward more recent and higher-PA seasons. That skill level is then applied to future ages on the curve, producing forecasted wRC+ values relative to league average.</p>
+<p>Note: This chart is age based - players that played in the last 5 years are available to search. Their latest year played may not have been the most recent MLB season.</p>
 <br>
 
   <!-- Outlier Lists -->
